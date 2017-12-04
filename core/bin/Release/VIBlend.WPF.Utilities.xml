@@ -1,0 +1,1659 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>VIBlend.WPF.Utilities</name>
+    </assembly>
+    <members>
+        <member name="T:VIBlend.WPF.Controls.Properties.Resources">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:VIBlend.WPF.Controls.Properties.Resources.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:VIBlend.WPF.Controls.Properties.Resources.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+        <member name="T:VIBlend.WPF.Controls.EdgeBehaviorEnum">
+            <summary>
+            Represents the EdgeBehaviorEnum enumeration.
+            </summary>
+        </member>
+        <member name="F:VIBlend.WPF.Controls.EdgeBehaviorEnum.EaseIn">
+            <exclude/>
+        </member>
+        <member name="F:VIBlend.WPF.Controls.EdgeBehaviorEnum.EaseOut">
+            <exclude/>
+        </member>
+        <member name="F:VIBlend.WPF.Controls.EdgeBehaviorEnum.EaseInOut">
+            <exclude/>
+        </member>
+        <member name="T:VIBlend.WPF.Controls.ScrollButton">
+            <exclude/>
+        </member>
+        <member name="F:VIBlend.WPF.Controls.ScrollButton.ScrollTypeProperty">
+            <exclude/>
+        </member>
+        <member name="F:VIBlend.WPF.Controls.ScrollButton.DelayProperty">
+            <exclude/>
+        </member>
+        <member name="F:VIBlend.WPF.Controls.ScrollButton.IntervalProperty">
+            <exclude/>
+        </member>
+        <member name="M:VIBlend.WPF.Controls.ScrollButton.#ctor">
+            <exclude/>
+        </member>
+        <member name="M:VIBlend.WPF.Controls.ScrollButton.OnApplyTemplate">
+            <summary>
+            When overridden in a derived class, is invoked whenever application code or internal processes (such as a rebuilding layout pass) call <see cref="M:System.Windows.Controls.Control.ApplyTemplate"/>.
+            </summary>
+        </member>
+        <member name="M:VIBlend.WPF.Controls.ScrollButton.OnClick">
+            <summary>
+            Raises the <see cref="E:System.Windows.Controls.Primitives.ButtonBase.Click"/> event.
+            </summary>
+        </member>
+        <member name="M:VIBlend.WPF.Controls.ScrollButton.OnKeyDown(System.Windows.Input.KeyEventArgs)">
+            <summary>
+            Provides class handling for the <see cref="E:System.Windows.UIElement.KeyDown"/> event that occurs when the user presses a key while this control has focus.
+            </summary>
+            <param name="e">The event data.</param>
+            <exception cref="T:System.ArgumentNullException">
+            	<paramref name="e"/> is null.</exception>
+        </member>
+        <member name="M:VIBlend.WPF.Controls.ScrollButton.OnKeyUp(System.Windows.Input.KeyEventArgs)">
+            <summary>
+            Provides class handling for the <see cref="E:System.Windows.UIElement.KeyUp"/> routed event that occurs when the user releases a key while this control has focus.
+            </summary>
+            <param name="e">The event data.</param>
+            <exception cref="T:System.ArgumentNullException">
+            	<paramref name="e"/> is null.</exception>
+        </member>
+        <member name="M:VIBlend.WPF.Controls.ScrollButton.OnLostFocus(System.Windows.RoutedEventArgs)">
+            <summary>
+            Provides handling for the <see cref="E:System.Windows.UIElement.LostFocus"/> event.
+            </summary>
+            <param name="e">The event data for the <see cref="E:System.Windows.UIElement.LostFocus"/> event.</param>
+            <exception cref="T:System.ArgumentNullException">
+            	<paramref name="e"/> is null.</exception>
+        </member>
+        <member name="M:VIBlend.WPF.Controls.ScrollButton.OnMouseEnter(System.Windows.Input.MouseEventArgs)">
+            <summary>
+            Provides class handling for the <see cref="E:System.Windows.UIElement.MouseEnter"/> event that occurs when the mouse enters this control.
+            </summary>
+            <param name="e">The event data.</param>
+            <exception cref="T:System.ArgumentNullException">
+            	<paramref name="e"/> is null.</exception>
+        </member>
+        <member name="M:VIBlend.WPF.Controls.ScrollButton.OnMouseLeave(System.Windows.Input.MouseEventArgs)">
+            <summary>
+            Provides class handling for the <see cref="E:System.Windows.UIElement.MouseLeave"/> routed event that occurs when the mouse leaves an element.
+            </summary>
+            <param name="e">The event data for the <see cref="E:System.Windows.UIElement.MouseLeave"/> event.</param>
+            <exception cref="T:System.ArgumentNullException">
+            	<paramref name="e"/> is null.</exception>
+        </member>
+        <member name="M:VIBlend.WPF.Controls.ScrollButton.OnMouseLeftButtonDown(System.Windows.Input.MouseButtonEventArgs)">
+            <summary>
+            Provides class handling for the <see cref="E:System.Windows.UIElement.MouseLeftButtonDown"/> event that occurs when the left mouse button is pressed while the mouse pointer is over this control.
+            </summary>
+            <param name="e">The event data.</param>
+            <exception cref="T:System.ArgumentNullException">
+            	<paramref name="e"/> is null.</exception>
+        </member>
+        <member name="M:VIBlend.WPF.Controls.ScrollButton.OnMouseLeftButtonUp(System.Windows.Input.MouseButtonEventArgs)">
+            <summary>
+            Provides class handling for the <see cref="E:System.Windows.UIElement.MouseLeftButtonUp"/> event that occurs when the left mouse button is released while the mouse pointer is over this control.
+            </summary>
+            <param name="e">The event data.</param>
+            <exception cref="T:System.ArgumentNullException">
+            	<paramref name="e"/> is null.</exception>
+        </member>
+        <member name="M:VIBlend.WPF.Controls.ScrollButton.OnMouseMove(System.Windows.Input.MouseEventArgs)">
+            <summary>
+            Provides class handling for the <see cref="E:System.Windows.UIElement.MouseMove"/> event that occurs when the mouse pointer moves while over this element.
+            </summary>
+            <param name="e">The event data.</param>
+            <exception cref="T:System.ArgumentNullException">
+            	<paramref name="e"/> is null.</exception>
+        </member>
+        <member name="P:VIBlend.WPF.Controls.ScrollButton.ScrollType">
+            <summary>
+            Gets or sets the type of the scroll.
+            </summary>
+            <value>The type of the scroll.</value>
+        </member>
+        <member name="P:VIBlend.WPF.Controls.ScrollButton.Delay">
+            <summary>
+            Gets or sets the delay.
+            </summary>
+            <value>The delay.</value>
+        </member>
+        <member name="P:VIBlend.WPF.Controls.ScrollButton.Interval">
+            <summary>
+            Gets or sets the interval.
+            </summary>
+            <value>The interval.</value>
+        </member>
+        <member name="T:VIBlend.WPF.Controls.ExpandableContentControl">
+            <exclude/>   
+        </member>
+        <member name="F:VIBlend.WPF.Controls.ExpandableContentControl.RevealModeProperty">
+            <exclude/>
+        </member>
+        <member name="F:VIBlend.WPF.Controls.ExpandableContentControl.PercentageProperty">
+            <exclude/>
+        </member>
+        <member name="F:VIBlend.WPF.Controls.ExpandableContentControl.TargetSizeProperty">
+            <exclude/>
+        </member>
+        <member name="M:VIBlend.WPF.Controls.ExpandableContentControl.ArrangeOverride(System.Windows.Size)">
+            <exclude/>
+        </member>
+        <member name="M:VIBlend.WPF.Controls.ExpandableContentControl.#ctor">
+            <exclude/>
+        </member>
+        <member name="M:VIBlend.WPF.Controls.ExpandableContentControl.OnApplyTemplate">
+            <exclude/>
+        </member>
+        <member name="E:VIBlend.WPF.Controls.ExpandableContentControl.PercentagePropertyChanged">
+            <exclude/>
+        </member>
+        <member name="P:VIBlend.WPF.Controls.ExpandableContentControl.RevealMode">
+            <exclude/>
+        </member>
+        <member name="P:VIBlend.WPF.Controls.ExpandableContentControl.Percentage">
+            <exclude/>
+        </member>
+        <member name="P:VIBlend.WPF.Controls.ExpandableContentControl.TargetSize">
+            <summary>
+            Gets or sets the size of the target.
+            </summary>
+            <value>
+            The size of the target.
+            </value>
+        </member>
+        <member name="P:VIBlend.WPF.Controls.ExpandableContentControl.RelevantContentSize">
+            <exclude/>
+        </member>
+        <member name="T:VIBlend.WPF.Controls.DragEventArgs">
+            <summary>
+            Represents the DragEventArgs class.
+            </summary>
+        </member>
+        <member name="M:VIBlend.WPF.Controls.DragEventArgs.#ctor(System.Object,System.Double,System.Double,System.Windows.FrameworkElement,System.Windows.FrameworkElement)">
+            <summary>
+            Initializes a new instance of the <see cref="T:VIBlend.WPF.Controls.DragEventArgs"/> class.
+            </summary>
+            <param name="data">The data.</param>
+            <param name="x">The x.</param>
+            <param name="y">The y.</param>
+            <param name="source">The source.</param>
+            <param name="target">The target.</param>
+        </member>
+        <member name="P:VIBlend.WPF.Controls.DragEventArgs.SourceElement">
+            <summary>
+            Gets the source element.
+            </summary>
+            <value>The source element.</value>
+        </member>
+        <member name="P:VIBlend.WPF.Controls.DragEventArgs.TargetElement">
+            <summary>
+            Gets the target element.
+            </summary>
+            <value>The target element.</value>
+        </member>
+        <member name="P:VIBlend.WPF.Controls.DragEventArgs.Data">
+            <summary>
+            Gets the data.
+            </summary>
+            <value>The data.</value>
+        </member>
+        <member name="P:VIBlend.WPF.Controls.DragEventArgs.X">
+            <summary>
+            Gets the X.
+            </summary>
+            <value>The X.</value>
+        </member>
+        <member name="P:VIBlend.WPF.Controls.DragEventArgs.Y">
+            <summary>
+            Gets the Y.
+            </summary>
+            <value>The Y.</value>
+        </member>
+        <member name="T:VIBlend.WPF.Controls.IPanelScrollInfo">
+            <exclude/>
+        </member>
+        <member name="M:VIBlend.WPF.Controls.IPanelScrollInfo.LineDown">
+            <summary>Scrolls down within the content by one logical unit.</summary>
+        </member>
+        <member name="M:VIBlend.WPF.Controls.IPanelScrollInfo.LineLeft">
+            <summary>Scrolls left within the content by one logical unit.</summary>
+        </member>
+        <member name="M:VIBlend.WPF.Controls.IPanelScrollInfo.LineRight">
+            <summary>Scrolls right within the content by one logical unit.</summary>
+        </member>
+        <member name="M:VIBlend.WPF.Controls.IPanelScrollInfo.LineUp">
+            <summary>Scrolls up within the content by one logical unit.</summary>
+        </member>
+        <member name="M:VIBlend.WPF.Controls.IPanelScrollInfo.MakeVisible(System.Windows.UIElement,System.Windows.Rect)">
+            <summary>Forces content to scroll until the coordinate space of a visual object is visible.</summary>
+            <returns>A <see cref="T:System.Windows.Rect" /> that is visible.</returns>
+            <param name="visual">A <see cref="T:System.Windows.UIElement" /> that becomes visible.</param>
+            <param name="rectangle">A bounding rectangle that identifies the coordinate space to make visible.</param>
+        </member>
+        <member name="M:VIBlend.WPF.Controls.IPanelScrollInfo.MouseWheelDown">
+            <summary>Scrolls down within the content after the user clicks the wheel button on a mouse.</summary>
+        </member>
+        <member name="M:VIBlend.WPF.Controls.IPanelScrollInfo.MouseWheelLeft">
+            <summary>Scrolls left within the content after the user clicks the wheel button on a mouse.</summary>
+        </member>
+        <member name="M:VIBlend.WPF.Controls.IPanelScrollInfo.MouseWheelRight">
+            <summary>Scrolls right within the content after the user clicks the wheel button on a mouse.</summary>
+        </member>
+        <member name="M:VIBlend.WPF.Controls.IPanelScrollInfo.MouseWheelUp">
+            <summary>Scrolls up within the content after the user clicks the wheel button on a mouse.</summary>
+        </member>
+        <member name="M:VIBlend.WPF.Controls.IPanelScrollInfo.PageDown">
+            <summary>Scrolls down within the content by one page.</summary>
+        </member>
+        <member name="M:VIBlend.WPF.Controls.IPanelScrollInfo.PageLeft">
+            <summary>Scrolls left within the content by one page.</summary>
+        </member>
+        <member name="M:VIBlend.WPF.Controls.IPanelScrollInfo.PageRight">
+            <summary>Scrolls right within the content by one page.</summary>
+        </member>
+        <member name="M:VIBlend.WPF.Controls.IPanelScrollInfo.PageUp">
+            <summary>Scrolls up within the content by one page.</summary>
+        </member>
+        <member name="M:VIBlend.WPF.Controls.IPanelScrollInfo.SetHorizontalOffset(System.Double)">
+            <summary>Sets the amount of horizontal offset.</summary>
+            <param name="offset">The amount that content is horizontally offset from the containing viewport.</param>
+        </member>
+        <member name="M:VIBlend.WPF.Controls.IPanelScrollInfo.SetVerticalOffset(System.Double)">
+            <summary>Sets the amount of vertical offset.</summary>
+            <param name="offset">The amount that content is vertically offset from the containing viewport.</param>
+        </member>
+        <member name="P:VIBlend.WPF.Controls.IPanelScrollInfo.CanHorizontallyScroll">
+            <summary>Gets or sets a value that indicates whether scrolling on the horizontal axis is possible.</summary>
+            <returns>true if scrolling is possible; otherwise false. This property has no default value.</returns>
+        </member>
+        <member name="P:VIBlend.WPF.Controls.IPanelScrollInfo.CanVerticallyScroll">
+            <summary>Gets or sets a value that indicates whether scrolling on the vertical axis is possible.</summary>
+            <returns>true if scrolling is possible; otherwise false. This property has no default value.</returns>
+        </member>
+        <member name="P:VIBlend.WPF.Controls.IPanelScrollInfo.ExtentHeight">
+            <summary>Gets the vertical size of the extent.</summary>
+            <returns>A <see cref="T:System.Double" /> that represents, in device independent pixels, the vertical size of the extent. This property has no default value.</returns>
+        </member>
+        <member name="P:VIBlend.WPF.Controls.IPanelScrollInfo.ExtentWidth">
+            <summary>Gets the horizontal size of the extent.</summary>
+            <returns>A <see cref="T:System.Double" /> that represents, in device independent pixels, the horizontal size of the extent. This property has no default value.</returns>
+        </member>
+        <member name="P:VIBlend.WPF.Controls.IPanelScrollInfo.HorizontalOffset">
+            <summary>Gets the horizontal offset of the scrolled content.</summary>
+            <returns>A <see cref="T:System.Double" /> that represents, in device independent pixels, the horizontal offset. Valid values are between zero and the <see cref="P:System.Windows.Controls.Primitives.IScrollInfo.ExtentWidth" /> minus the <see cref="P:System.Windows.Controls.Primitives.IScrollInfo.ViewportWidth" />. This property has no default value.</returns>
+        </member>
+        <member name="P:VIBlend.WPF.Controls.IPanelScrollInfo.ScrollOwner">
+            <summary>Gets or sets a <see cref="T:System.Windows.Controls.ScrollViewer" /> element that controls scrolling behavior.</summary>
+            <returns>A <see cref="T:System.Windows.Controls.ScrollViewer" /> element that controls scrolling behavior. This property has no default value.</returns>
+        </member>
+        <member name="P:VIBlend.WPF.Controls.IPanelScrollInfo.VerticalOffset">
+            <summary>Gets the vertical offset of the scrolled content.</summary>
+            <returns>A <see cref="T:System.Double" /> that represents, in device independent pixels, the vertical offset of the scrolled content. Valid values are between zero and the <see cref="P:System.Windows.Controls.Primitives.IScrollInfo.ExtentHeight" /> minus the <see cref="P:System.Windows.Controls.Primitives.IScrollInfo.ViewportHeight" />. This property has no default value.</returns>
+        </member>
+        <member name="P:VIBlend.WPF.Controls.IPanelScrollInfo.ViewportHeight">
+            <summary>Gets the vertical size of the viewport for this content.</summary>
+            <returns>A <see cref="T:System.Double" /> that represents, in device independent pixels, the vertical size of the viewport for this content. This property has no default value.</returns>
+        </member>
+        <member name="P:VIBlend.WPF.Controls.IPanelScrollInfo.ViewportWidth">
+            <summary>Gets the horizontal size of the viewport for this content.</summary>
+            <returns>A <see cref="T:System.Double" /> that represents, in device independent pixels, the horizontal size of the viewport for this content. This property has no default value.</returns>
+        </member>
+        <member name="T:VIBlend.WPF.Controls.DragFeedbackEventArgs">
+            <summary>
+            Represents the DragFeedbackEventArgs class.
+            </summary>
+        </member>
+        <member name="M:VIBlend.WPF.Controls.DragFeedbackEventArgs.#ctor(System.Object,System.Double,System.Double,System.Windows.FrameworkElement,System.Windows.FrameworkElement,System.Windows.Input.MouseEventArgs)">
+            <summary>
+            Initializes a new instance of the <see cref="T:VIBlend.WPF.Controls.DragFeedbackEventArgs"/> class.
+            </summary>
+            <param name="data">The data.</param>
+            <param name="x">The x.</param>
+            <param name="y">The y.</param>
+            <param name="source">The source.</param>
+            <param name="target">The target.</param>
+            <param name="args">The <see cref="T:System.Windows.Input.MouseEventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="P:VIBlend.WPF.Controls.DragFeedbackEventArgs.MouseEventArgs">
+            <summary>
+            Gets or sets the mouse event args.
+            </summary>
+            <value>The mouse event args.</value>
+        </member>
+        <member name="P:VIBlend.WPF.Controls.DragFeedbackEventArgs.FeedbackContent">
+            <summary>
+            Gets or sets the content of the feedback.
+            </summary>
+            <value>The content of the feedback.</value>
+        </member>
+        <member name="P:VIBlend.WPF.Controls.DragFeedbackEventArgs.SourceElement">
+            <summary>
+            Gets the source element.
+            </summary>
+            <value>The source element.</value>
+        </member>
+        <member name="P:VIBlend.WPF.Controls.DragFeedbackEventArgs.TargetElement">
+            <summary>
+            Gets the target element.
+            </summary>
+            <value>The target element.</value>
+        </member>
+        <member name="P:VIBlend.WPF.Controls.DragFeedbackEventArgs.Data">
+            <summary>
+            Gets or sets the data.
+            </summary>
+            <value>The data.</value>
+        </member>
+        <member name="P:VIBlend.WPF.Controls.DragFeedbackEventArgs.X">
+            <summary>
+            Gets the X.
+            </summary>
+            <value>The X.</value>
+        </member>
+        <member name="P:VIBlend.WPF.Controls.DragFeedbackEventArgs.Y">
+            <summary>
+            Gets the Y.
+            </summary>
+            <value>The Y.</value>
+        </member>
+        <member name="T:VIBlend.WPF.Controls.LayoutTransformer">
+            <exclude/>
+        </member>
+        <member name="F:VIBlend.WPF.Controls.LayoutTransformer.AcceptableDelta">
+            <summary>
+            Acceptable difference between two doubles.
+            </summary>
+        </member>
+        <member name="F:VIBlend.WPF.Controls.LayoutTransformer.DecimalsAfterRound">
+            <summary>
+            Number of decimals to round the Matrix to.
+            </summary>
+        </member>
+        <member name="F:VIBlend.WPF.Controls.LayoutTransformer.LayoutTransformProperty">
+            <summary>
+            Identifies the LayoutTransform DependencyProperty.
+            </summary>
+        </member>
+        <member name="F:VIBlend.WPF.Controls.LayoutTransformer._transformRoot">
+            <summary>
+            Root element for performing transformations.
+            </summary>
+        </member>
+        <member name="F:VIBlend.WPF.Controls.LayoutTransformer._contentPresenter">
+            <summary>
+            ContentPresenter element for displaying the content.
+            </summary>
+        </member>
+        <member name="F:VIBlend.WPF.Controls.LayoutTransformer._matrixTransform">
+            <summary>
+            RenderTransform/MatrixTransform applied to _transformRoot.
+            </summary>
+        </member>
+        <member name="F:VIBlend.WPF.Controls.LayoutTransformer._transformation">
+            <summary>
+            Transformation matrix corresponding to _matrixTransform.
+            </summary>
+        </member>
+        <member name="F:VIBlend.WPF.Controls.LayoutTransformer._childActualSize">
+            <summary>
+            Actual DesiredSize of Child element (the value it returned from its MeasureOverride method).
+            </summary>
+        </member>
+        <member name="M:VIBlend.WPF.Controls.LayoutTransformer.#ctor">
+            <summary>
+            Initializes a new instance of the LayoutTransformer class.
+            </summary>
+        </member>
+        <member name="M:VIBlend.WPF.Controls.LayoutTransformer.OnApplyTemplate">
+            <summary>
+            Builds the visual tree for the LayoutTransformer control when a new 
+            template is applied.
+            </summary>
+        </member>
+        <member name="M:VIBlend.WPF.Controls.LayoutTransformer.LayoutTransformChanged(System.Windows.DependencyObject,System.Windows.DependencyPropertyChangedEventArgs)">
+            <summary>
+            Handles changes to the Transform DependencyProperty.
+            </summary>
+            <param name="o">Source of the change.</param>
+            <param name="e">Event args.</param>
+        </member>
+        <member name="M:VIBlend.WPF.Controls.LayoutTransformer.ApplyLayoutTransform">
+            <summary>
+            Applies the layout transform on the LayoutTransformer control content.
+            </summary>
+            <remarks>
+            Only used in advanced scenarios (like animating the LayoutTransform). 
+            Should be used to notify the LayoutTransformer control that some aspect 
+            of its Transform property has changed. 
+            </remarks>
+        </member>
+        <member name="M:VIBlend.WPF.Controls.LayoutTransformer.ProcessTransform(System.Windows.Media.Transform)">
+            <summary>
+            Processes the Transform to determine the corresponding Matrix.
+            </summary>
+            <param name="transform">Transform to process.</param>
+        </member>
+        <member name="M:VIBlend.WPF.Controls.LayoutTransformer.GetTransformMatrix(System.Windows.Media.Transform)">
+            <summary>
+            Walks the Transform(Group) and returns the corresponding Matrix.
+            </summary>
+            <param name="transform">Transform(Group) to walk.</param>
+            <returns>Computed Matrix.</returns>
+        </member>
+        <member name="M:VIBlend.WPF.Controls.LayoutTransformer.MeasureOverride(System.Windows.Size)">
+            <summary>
+            Provides the behavior for the "Measure" pass of layout.
+            </summary>
+            <param name="availableSize">The available size that this element can give to child elements.</param>
+            <returns>The size that this element determines it needs during layout, based on its calculations of child element sizes.</returns>
+        </member>
+        <member name="M:VIBlend.WPF.Controls.LayoutTransformer.ArrangeOverride(System.Windows.Size)">
+            <summary>
+            Provides the behavior for the "Arrange" pass of layout.
+            </summary>
+            <param name="finalSize">The final area within the parent that this element should use to arrange itself and its children.</param>
+            <returns>The actual size used.</returns>
+            <remarks>
+            Using the WPF paramater name finalSize instead of Silverlight's finalSize for clarity
+            </remarks>
+        </member>
+        <member name="M:VIBlend.WPF.Controls.LayoutTransformer.ComputeLargestTransformedSize(System.Windows.Size)">
+            <summary>
+            Compute the largest usable size (greatest area) after applying the transformation to the specified bounds.
+            </summary>
+            <param name="arrangeBounds">Arrange bounds.</param>
+            <returns>Largest Size possible.</returns>
+        </member>
+        <member name="M:VIBlend.WPF.Controls.LayoutTransformer.IsSizeSmaller(System.Windows.Size,System.Windows.Size)">
+            <summary>
+            Returns true if Size a is smaller than Size b in either dimension.
+            </summary>
+            <param name="a">Second Size.</param>
+            <param name="b">First Size.</param>
+            <returns>True if Size a is smaller than Size b in either dimension.</returns>
+        </member>
+        <member name="M:VIBlend.WPF.Controls.LayoutTransformer.RoundMatrix(System.Windows.Media.Matrix,System.Int32)">
+            <summary>
+            Rounds the non-offset elements of a Matrix to avoid issues due to floating point imprecision.
+            </summary>
+            <param name="matrix">Matrix to round.</param>
+            <param name="decimals">Number of decimal places to round to.</param>
+            <returns>Rounded Matrix.</returns>
+        </member>
+        <member name="M:VIBlend.WPF.Controls.LayoutTransformer.RectTransform(System.Windows.Rect,System.Windows.Media.Matrix)">
+            <summary>
+            Implements WPF's Rect.Transform on Silverlight.
+            </summary>
+            <param name="rect">Rect to transform.</param>
+            <param name="matrix">Matrix to transform with.</param>
+            <returns>Bounding box of transformed Rect.</returns>
+        </member>
+        <member name="M:VIBlend.WPF.Controls.LayoutTransformer.MatrixMultiply(System.Windows.Media.Matrix,System.Windows.Media.Matrix)">
+            <summary>
+            Implements WPF's Matrix.Multiply on Silverlight.
+            </summary>
+            <param name="matrix1">First matrix.</param>
+            <param name="matrix2">Second matrix.</param>
+            <returns>Multiplication result.</returns>
+        </member>
+        <member name="M:VIBlend.WPF.Controls.LayoutTransformer.MatrixHasInverse(System.Windows.Media.Matrix)">
+            <summary>
+            Implements WPF's Matrix.HasInverse on Silverlight.
+            </summary>
+            <param name="matrix">Matrix to check for inverse.</param>
+            <returns>True if the Matrix has an inverse.</returns>
+        </member>
+        <member name="M:VIBlend.WPF.Controls.LayoutTransformer.DiagnosticWriteLine(System.String)">
+            <summary>
+            Outputs diagnostic info if DIAGNOSTICWRITELINE is defined.
+            </summary>
+            <param name="message">Diagnostic message.</param>
+        </member>
+        <member name="P:VIBlend.WPF.Controls.LayoutTransformer.LayoutTransform">
+            <summary>
+            Gets or sets the layout transform.
+            </summary>
+            <value>The layout transform.</value>
+        </member>
+        <member name="P:VIBlend.WPF.Controls.LayoutTransformer.Child">
+            <summary>
+            Gets the child element being transformed.
+            </summary>
+        </member>
+        <member name="T:VIBlend.WPF.Controls.TrialForm">
+            <summary>
+            Interaction logic for TrialForm.xaml
+            </summary>
+            <summary>
+            TrialForm
+            </summary>
+        </member>
+        <member name="M:VIBlend.WPF.Controls.TrialForm.#ctor">
+            <exclude/>
+        </member>
+        <member name="M:VIBlend.WPF.Controls.TrialForm.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="P:VIBlend.WPF.Controls.TrialForm.ControlName">
+            <exclude/>
+        </member>
+        <member name="T:VIBlend.WPF.Controls.EditFilterMode">
+            <summary>
+            EditFilterMode enumeration.
+            </summary>
+        </member>
+        <member name="F:VIBlend.WPF.Controls.EditFilterMode.None">
+            <summary>
+            Specifies none filter.
+            </summary>
+        </member>
+        <member name="F:VIBlend.WPF.Controls.EditFilterMode.StartsWith">
+            <summary>
+            Specifies a starts-with filter mode.
+            </summary>
+        </member>
+        <member name="F:VIBlend.WPF.Controls.EditFilterMode.StartsWithCaseSensitive">
+            <summary>
+            Specifies a starts-with case sensitive filter mode.
+            </summary>
+        </member>
+        <member name="F:VIBlend.WPF.Controls.EditFilterMode.Contains">
+            <summary>
+            Specifies contains filter mode.
+            </summary>
+        </member>
+        <member name="F:VIBlend.WPF.Controls.EditFilterMode.ContainsCaseSensitive">
+            <summary>
+            Specifies contains with case sensitive mode.
+            </summary>
+        </member>
+        <member name="F:VIBlend.WPF.Controls.EditFilterMode.EndsWith">
+            <summary>
+            Specifies ends with mode.
+            </summary>        
+        </member>
+        <member name="F:VIBlend.WPF.Controls.EditFilterMode.EndsWithCaseSensitive">
+            <summary>
+            Specifies ends with case sensitive mode.
+            </summary>      
+        </member>
+        <member name="F:VIBlend.WPF.Controls.EditFilterMode.Equals">
+            <summary>
+            Specifies equals mode.
+            </summary>   
+        </member>
+        <member name="F:VIBlend.WPF.Controls.EditFilterMode.EqualsCaseSensitive">
+            <summary>
+            Specifies equals with case sensitive mode.
+            </summary>
+        </member>
+        <member name="T:VIBlend.WPF.Controls.EditFilterPredicate`1">
+            <summary>
+            Represents EditFilterPredicate 
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="search"></param>
+            <param name="item"></param>
+            <returns></returns>
+        </member>
+        <member name="M:VIBlend.WPF.Controls.AutoCompleteSearch.GetFilter(VIBlend.WPF.Controls.EditFilterMode)">
+            <summary>
+            Gets the filter.
+            </summary>
+            <param name="FilterMode">The filter mode.</param>
+            <returns></returns>
+        </member>
+        <member name="M:VIBlend.WPF.Controls.AutoCompleteSearch.EndsWith(System.String,System.String)">
+            <summary>
+            Ends with.
+            </summary>
+            <param name="searchText">The search text.</param>
+            <param name="sourceText">The source text.</param>
+            <returns></returns>
+        </member>
+        <member name="M:VIBlend.WPF.Controls.AutoCompleteSearch.EndsWithCaseSensitive(System.String,System.String)">
+            <summary>
+            Ends with case sensitive.
+            </summary>
+            <param name="searchText">The search text.</param>
+            <param name="sourceText">The source text.</param>
+            <returns></returns>
+        </member>
+        <member name="M:VIBlend.WPF.Controls.AutoCompleteSearch.EqualsCaseSensitive(System.String,System.String)">
+            <summary>
+            Equalses the case sensitive.
+            </summary>
+            <param name="text">The text.</param>
+            <param name="value">The value.</param>
+            <returns></returns>
+        </member>
+        <member name="M:VIBlend.WPF.Controls.AutoCompleteSearch.Equals(System.String,System.String)">
+            <summary>
+            Equalses the specified text.
+            </summary>
+            <param name="text">The text.</param>
+            <param name="value">The value.</param>
+            <returns></returns>
+        </member>
+        <member name="M:VIBlend.WPF.Controls.AutoCompleteSearch.Contains(System.String,System.String,System.StringComparison)">
+            <summary>
+            Determines whether [contains] [the specified s].
+            </summary>
+            <param name="s">The s.</param>
+            <param name="value">The value.</param>
+            <param name="comparison">The comparison.</param>
+            <returns>
+              <c>true</c> if [contains] [the specified s]; otherwise, <c>false</c>.
+            </returns>
+        </member>
+        <member name="M:VIBlend.WPF.Controls.AutoCompleteSearch.Contains(System.String,System.String)">
+            <summary>
+            Determines whether [contains] [the specified text].
+            </summary>
+            <param name="text">The text.</param>
+            <param name="value">The value.</param>
+            <returns>
+              <c>true</c> if [contains] [the specified text]; otherwise, <c>false</c>.
+            </returns>
+        </member>
+        <member name="M:VIBlend.WPF.Controls.AutoCompleteSearch.ContainsCaseSensitive(System.String,System.String)">
+            <summary>
+            Determines whether [contains case sensitive] [the specified text].
+            </summary>
+            <param name="text">The text.</param>
+            <param name="value">The value.</param>
+            <returns>
+              <c>true</c> if [contains case sensitive] [the specified text]; otherwise, <c>false</c>.
+            </returns>
+        </member>
+        <member name="M:VIBlend.WPF.Controls.AutoCompleteSearch.StartsWith(System.String,System.String)">
+            <summary>
+            Starts with.
+            </summary>
+            <param name="searchText">The search text.</param>
+            <param name="sourceText">The source text.</param>
+            <returns></returns>
+        </member>
+        <member name="M:VIBlend.WPF.Controls.AutoCompleteSearch.StartsWithCaseSensitive(System.String,System.String)">
+            <summary>
+            Starts with case sensitive.
+            </summary>
+            <param name="searchText">The search text.</param>
+            <param name="sourceText">The source text.</param>
+            <returns></returns>
+        </member>
+        <member name="T:VIBlend.WPF.Controls.PanelContentPresenter">
+            <exclude/>   
+        </member>
+        <member name="F:VIBlend.WPF.Controls.PanelContentPresenter.IntervalProperty">
+            <exclude/>
+        </member>
+        <member name="M:VIBlend.WPF.Controls.PanelContentPresenter.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:VIBlend.WPF.Controls.PanelContentPresenter"/> class.
+            </summary>
+        </member>
+        <member name="F:VIBlend.WPF.Controls.PanelContentPresenter.AccelerationMaxStepProperty">
+            <exclude/>
+        </member>
+        <member name="F:VIBlend.WPF.Controls.PanelContentPresenter.ScrollTypeProperty">
+            <exclude/>
+        </member>
+        <member name="M:VIBlend.WPF.Controls.PanelContentPresenter.HookupScrollingComponents">
+            <summary>
+            Hookups the scrolling components.
+            </summary>
+        </member>
+        <member name="M:VIBlend.WPF.Controls.PanelContentPresenter.HookupScrollingComponents(VIBlend.WPF.Controls.ScrollablePanel)">
+            <summary>
+            Hookups the scrolling components.
+            </summary>
+            <param name="templatedParent">The templated parent.</param>
+        </member>
+        <member name="M:VIBlend.WPF.Controls.PanelContentPresenter.LineDown">
+            <summary>Scrolls the <see cref="T:System.Windows.Controls.ScrollContentPresenter" /> content downward by one line.</summary>
+        </member>
+        <member name="M:VIBlend.WPF.Controls.PanelContentPresenter.LineLeft">
+            <summary>Scrolls the <see cref="T:System.Windows.Controls.ScrollContentPresenter" /> content to the left by a predetermined amount.</summary>
+        </member>
+        <member name="M:VIBlend.WPF.Controls.PanelContentPresenter.LineRight">
+            <summary>Scrolls the <see cref="T:System.Windows.Controls.ScrollContentPresenter" /> content to the right by a predetermined amount.</summary>
+        </member>
+        <member name="M:VIBlend.WPF.Controls.PanelContentPresenter.LineUp">
+            <summary>Scrolls the <see cref="T:System.Windows.Controls.ScrollContentPresenter" /> content upward by one line.</summary>
+        </member>
+        <member name="M:VIBlend.WPF.Controls.PanelContentPresenter.MakeVisible(System.Windows.UIElement,System.Windows.Rect)">
+            <summary>Forces content to scroll until the coordinate space of a visual object is visible.</summary>
+            <returns>A <see cref="T:System.Windows.Rect" /> that represents the visible region. </returns>
+            <param name="visual">A <see cref="T:System.Windows.UIElement" /> that becomes visible.</param>
+            <param name="rectangle">The bounding rectangle that identifies the coordinate space to make visible.</param>
+        </member>
+        <member name="M:VIBlend.WPF.Controls.PanelContentPresenter.MeasureOverride(System.Windows.Size)">
+            <summary>
+            Measures the override.
+            </summary>
+            <param name="constraint">The constraint.</param>
+            <returns></returns>
+        </member>
+        <member name="M:VIBlend.WPF.Controls.PanelContentPresenter.MouseWheelDown">
+            <summary>Scrolls down within content after a user clicks the wheel button on a mouse.</summary>
+        </member>
+        <member name="M:VIBlend.WPF.Controls.PanelContentPresenter.MouseWheelLeft">
+            <summary>Scrolls left within content after a user clicks the wheel button on a mouse.</summary>
+        </member>
+        <member name="M:VIBlend.WPF.Controls.PanelContentPresenter.MouseWheelRight">
+            <summary>Scrolls right within content after a user clicks the wheel button on a mouse.</summary>
+        </member>
+        <member name="M:VIBlend.WPF.Controls.PanelContentPresenter.MouseWheelUp">
+            <summary>Scrolls up within content after a user clicks the wheel button on a mouse.</summary>
+        </member>
+        <member name="M:VIBlend.WPF.Controls.PanelContentPresenter.OnApplyTemplate">
+            <summary>Builds the visual tree for the <see cref="T:System.Windows.Controls.ScrollContentPresenter" /> when a new template is applied.</summary>
+        </member>
+        <member name="M:VIBlend.WPF.Controls.PanelContentPresenter.PageDown">
+            <summary>Scrolls down within the content by one page.</summary>
+        </member>
+        <member name="M:VIBlend.WPF.Controls.PanelContentPresenter.PageLeft">
+            <summary>Scrolls left within the content by one page.</summary>
+        </member>
+        <member name="M:VIBlend.WPF.Controls.PanelContentPresenter.PageRight">
+            <summary>Scrolls right within the content by one page.</summary>
+        </member>
+        <member name="M:VIBlend.WPF.Controls.PanelContentPresenter.PageUp">
+            <summary>Scrolls up within the content by one page.</summary>
+        </member>
+        <member name="M:VIBlend.WPF.Controls.PanelContentPresenter.SetHorizontalOffset(System.Double)">
+            <summary>Sets the distance the content has been scrolled horizontally.</summary>
+            <param name="offset">The distance the content has been scrolled horizontally.</param>
+        </member>
+        <member name="M:VIBlend.WPF.Controls.PanelContentPresenter.SetVerticalOffset(System.Double)">
+            <summary>Sets the distance the content has been scrolled vertically.</summary>
+            <param name="offset">The distance the content has been scrolled vertically.</param>
+        </member>
+        <member name="P:VIBlend.WPF.Controls.PanelContentPresenter.Interval">
+            <summary>
+            Gets or sets the interval.
+            </summary>
+            <value>The interval.</value>
+        </member>
+        <member name="P:VIBlend.WPF.Controls.PanelContentPresenter.LineSmallStep">
+            <summary>
+            Gets or sets the line small step.
+            </summary>
+            <value>The line small step.</value>
+        </member>
+        <member name="P:VIBlend.WPF.Controls.PanelContentPresenter.AccelerationMaxStep">
+            <summary>
+            Gets or sets the acceleration max step.
+            </summary>
+            <value>The acceleration max step.</value>
+        </member>
+        <member name="P:VIBlend.WPF.Controls.PanelContentPresenter.IsHovered">
+            <summary>
+            Gets or sets a value indicating whether this instance is hovered.
+            </summary>
+            <value>
+            	<c>true</c> if this instance is hovered; otherwise, <c>false</c>.
+            </value>
+        </member>
+        <member name="P:VIBlend.WPF.Controls.PanelContentPresenter.ScrollType">
+            <summary>
+            Gets or sets the type of the scroll.
+            </summary>
+            <value>The type of the scroll.</value>
+        </member>
+        <member name="P:VIBlend.WPF.Controls.PanelContentPresenter.CanHorizontallyScroll">
+            <summary>Gets or sets a value that indicates whether scrolling on the horizontal axis is possible.</summary>
+            <returns>true if scrolling is possible; otherwise, false.</returns>
+        </member>
+        <member name="P:VIBlend.WPF.Controls.PanelContentPresenter.CanVerticallyScroll">
+            <summary>Gets or sets a value that indicates whether scrolling on the vertical axis is possible.</summary>
+            <returns>true if scrolling is possible; otherwise, false.</returns>
+        </member>
+        <member name="P:VIBlend.WPF.Controls.PanelContentPresenter.ExtentHeight">
+            <summary>Gets the vertical size of the extent.</summary>
+            <returns>The vertical size of the extent.</returns>
+        </member>
+        <member name="P:VIBlend.WPF.Controls.PanelContentPresenter.ExtentWidth">
+            <summary>Gets the horizontal size of the extent.</summary>
+            <returns>The horizontal size of the extent.</returns>
+        </member>
+        <member name="P:VIBlend.WPF.Controls.PanelContentPresenter.HorizontalOffset">
+            <summary>Gets or sets the distance the content has been scrolled horizontally.</summary>
+            <returns>The distance the content has been scrolled horizontally.</returns>
+        </member>
+        <member name="P:VIBlend.WPF.Controls.PanelContentPresenter.ScrollOwner">
+            <summary>Gets or sets the <see cref="T:System.Windows.Controls.ScrollViewer" /> element that controls scrolling behavior.</summary>
+            <returns>The <see cref="T:System.Windows.Controls.ScrollViewer" /> element that controls scrolling behavior.</returns>
+        </member>
+        <member name="P:VIBlend.WPF.Controls.PanelContentPresenter.VerticalOffset">
+            <summary>Gets or sets the distance the content has been scrolled vertically.</summary>
+            <returns>The distance the content has been scrolled vertically.</returns>
+        </member>
+        <member name="P:VIBlend.WPF.Controls.PanelContentPresenter.ViewportHeight">
+            <summary>Gets the vertical size of the viewport.</summary>
+            <returns>The vertical size of the viewport.</returns>
+        </member>
+        <member name="P:VIBlend.WPF.Controls.PanelContentPresenter.ViewportWidth">
+            <summary>Gets the horizontal size of the viewport.</summary>
+            <returns>The horizontal size of the viewport.</returns>
+        </member>
+        <member name="T:VIBlend.WPF.Controls.VIBlendThemes">
+            <summary>
+            Represents the VIBlendThemes enumeration.
+            </summary>
+        </member>
+        <member name="F:VIBlend.WPF.Controls.VIBlendThemes.Default">
+            <exclude/>
+        </member>
+        <member name="F:VIBlend.WPF.Controls.VIBlendThemes.Office2010Black">
+            <exclude/>
+        </member>
+        <member name="F:VIBlend.WPF.Controls.VIBlendThemes.Office2010Blue">
+            <exclude/>
+        </member>
+        <member name="F:VIBlend.WPF.Controls.VIBlendThemes.Office2010Silver">
+            <exclude/>
+        </member>
+        <member name="F:VIBlend.WPF.Controls.VIBlendThemes.Office2007Black">
+            <exclude/>
+        </member>
+        <member name="F:VIBlend.WPF.Controls.VIBlendThemes.Office2007Blue">
+            <exclude/>
+        </member>
+        <member name="F:VIBlend.WPF.Controls.VIBlendThemes.Office2007Silver">
+            <exclude/>
+        </member>
+        <member name="F:VIBlend.WPF.Controls.VIBlendThemes.Silver">
+            <exclude/>
+        </member>
+        <member name="T:VIBlend.WPF.Controls.VIBlendTheme">
+            <summary>
+            Represents a class that applies the styles to the viblend wpf controls.
+            </summary>
+        </member>
+        <member name="M:VIBlend.WPF.Controls.VIBlendTheme.GetThemeResourceDictionary(System.String,System.String)">
+            <summary>
+            Gets the theme resource dictionary.
+            </summary>
+            <param name="themeAssemblyName">Name of the theme assembly.</param>
+            <param name="typeName">Name of the type.</param>
+            <returns></returns>
+        </member>
+        <member name="F:VIBlend.WPF.Controls.VIBlendTheme.ThemeProperty">
+            <exclude/>
+        </member>
+        <member name="M:VIBlend.WPF.Controls.VIBlendTheme.GetTheme(System.Windows.DependencyObject)">
+            <summary>
+            Gets the Theme property.  This dependency property 
+            indicates ....
+            </summary>
+        </member>
+        <member name="M:VIBlend.WPF.Controls.VIBlendTheme.SetTheme(System.Windows.DependencyObject,VIBlend.WPF.Controls.VIBlendThemes)">
+            <summary>
+            Sets the Theme property.  This dependency property 
+            indicates ....
+            </summary>
+        </member>
+        <member name="T:VIBlend.WPF.Controls.ScrollElement">
+            <exclude/>
+        </member>
+        <member name="F:VIBlend.WPF.Controls.ScrollElement.OrientationProperty">
+            <exclude/>
+        </member>
+        <member name="F:VIBlend.WPF.Controls.ScrollElement.DelayProperty">
+            <exclude/>
+        </member>
+        <member name="F:VIBlend.WPF.Controls.ScrollElement.IntervalProperty">
+            <exclude/>
+        </member>
+        <member name="F:VIBlend.WPF.Controls.ScrollElement.ScrollTypeProperty">
+            <exclude/>
+        </member>
+        <member name="F:VIBlend.WPF.Controls.ScrollElement.ViewportSizeProperty">
+            <exclude/>
+        </member>
+        <member name="M:VIBlend.WPF.Controls.ScrollElement.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:VIBlend.WPF.Controls.ScrollElement"/> class.
+            </summary>
+        </member>
+        <member name="M:VIBlend.WPF.Controls.ScrollElement.OnApplyTemplate">
+            <summary>
+            When overridden in a derived class, is invoked whenever application code or internal processes (such as a rebuilding layout pass) call <see cref="M:System.Windows.Controls.Control.ApplyTemplate"/>.
+            </summary>
+        </member>
+        <member name="M:VIBlend.WPF.Controls.ScrollElement.OnIsButtonMouseOverChanged">
+            <exclude/>
+        </member>
+        <member name="M:VIBlend.WPF.Controls.ScrollElement.OnLostMouseCapture(System.Windows.Input.MouseEventArgs)">
+            <summary>
+            Called before the <see cref="E:System.Windows.UIElement.LostMouseCapture"/> event occurs to provide handling for the event in a derived class without attaching a delegate.
+            </summary>
+            <param name="e">A <see cref="T:System.Windows.Input.MouseEventArgs"/> that contains the event data.</param>
+        </member>
+        <member name="M:VIBlend.WPF.Controls.ScrollElement.OnMaximumChanged(System.Double,System.Double)">
+            <summary>
+            Called when the <see cref="P:System.Windows.Controls.Primitives.RangeBase.Maximum"/> property changes.
+            </summary>
+            <param name="oldMaximum">Old value of the <see cref="P:System.Windows.Controls.Primitives.RangeBase.Maximum"/> property.</param>
+            <param name="newMaximum">New value of the <see cref="P:System.Windows.Controls.Primitives.RangeBase.Maximum"/> property.</param>
+        </member>
+        <member name="M:VIBlend.WPF.Controls.ScrollElement.OnMinimumChanged(System.Double,System.Double)">
+            <summary>
+            Called when the <see cref="P:System.Windows.Controls.Primitives.RangeBase.Minimum"/> property changes.
+            </summary>
+            <param name="oldMinimum">Old value of the <see cref="P:System.Windows.Controls.Primitives.RangeBase.Minimum"/> property.</param>
+            <param name="newMinimum">New value of the <see cref="P:System.Windows.Controls.Primitives.RangeBase.Minimum"/> property.</param>
+        </member>
+        <member name="M:VIBlend.WPF.Controls.ScrollElement.OnMouseEnter(System.Windows.Input.MouseEventArgs)">
+            <summary>
+            Called before the <see cref="E:System.Windows.UIElement.MouseEnter"/> event occurs.
+            </summary>
+            <param name="e">The data for the event.</param>
+        </member>
+        <member name="M:VIBlend.WPF.Controls.ScrollElement.OnMouseLeave(System.Windows.Input.MouseEventArgs)">
+            <summary>
+            Called before the <see cref="E:System.Windows.UIElement.MouseLeave"/> event occurs.
+            </summary>
+            <param name="e">The data for the event.</param>
+        </member>
+        <member name="M:VIBlend.WPF.Controls.ScrollElement.OnMouseLeftButtonDown(System.Windows.Input.MouseButtonEventArgs)">
+            <summary>
+            Called before the <see cref="E:System.Windows.UIElement.MouseLeftButtonDown"/> event occurs.
+            </summary>
+            <param name="e">The data for the event.</param>
+        </member>
+        <member name="M:VIBlend.WPF.Controls.ScrollElement.OnMouseLeftButtonUp(System.Windows.Input.MouseButtonEventArgs)">
+            <summary>
+            Called before the <see cref="E:System.Windows.UIElement.MouseLeftButtonUp"/> event occurs.
+            </summary>
+            <param name="e">The data for the event.</param>
+        </member>
+        <member name="M:VIBlend.WPF.Controls.ScrollElement.OnValueChanged(System.Double,System.Double)">
+            <summary>
+            Raises the <see cref="E:System.Windows.Controls.Primitives.RangeBase.ValueChanged"/> routed event.
+            </summary>
+            <param name="oldValue">Old value of the <see cref="P:System.Windows.Controls.Primitives.RangeBase.Value"/> property.</param>
+            <param name="newValue">New value of the <see cref="P:System.Windows.Controls.Primitives.RangeBase.Value"/> property.</param>
+        </member>
+        <member name="P:VIBlend.WPF.Controls.ScrollElement.Delay">
+            <summary>
+            Gets or sets the delay.
+            </summary>
+            <value>The delay.</value>
+        </member>
+        <member name="P:VIBlend.WPF.Controls.ScrollElement.Interval">
+            <summary>
+            Gets or sets the interval.
+            </summary>
+            <value>The interval.</value>
+        </member>
+        <member name="P:VIBlend.WPF.Controls.ScrollElement.ScrollType">
+            <summary>
+            Gets or sets the type of the scroll.
+            </summary>
+            <value>The type of the scroll.</value>
+        </member>
+        <member name="E:VIBlend.WPF.Controls.ScrollElement.Scroll">
+            <summary>
+            Occurs when a user presses a scroll button.
+            </summary>
+        </member>
+        <member name="E:VIBlend.WPF.Controls.ScrollElement.IsButtonMouseOverChanged">
+            <exclude/>
+        </member>
+        <member name="P:VIBlend.WPF.Controls.ScrollElement.IsButtonMouseOver">
+            <summary>
+            Gets or sets a value indicating whether this instance is button mouse over.
+            </summary>
+            <value>
+            	<c>true</c> if this instance is button mouse over; otherwise, <c>false</c>.
+            </value>
+        </member>
+        <member name="P:VIBlend.WPF.Controls.ScrollElement.IsMouseOver">
+            <summary>
+            Gets a value indicating whether the mouse pointer is located over this element (including child elements in the visual tree).
+            </summary>
+            <returns>true if mouse pointer is over the element or its child elements; otherwise, false. The default is false.</returns>
+        </member>
+        <member name="P:VIBlend.WPF.Controls.ScrollElement.Orientation">
+            <summary>
+            Gets or sets the orientation.
+            </summary>
+            <value>The orientation.</value>
+        </member>
+        <member name="P:VIBlend.WPF.Controls.ScrollElement.ViewportSize">
+            <summary>
+            Gets or sets the size of the viewport.
+            </summary>
+            <value>The size of the viewport.</value>
+        </member>
+        <member name="T:VIBlend.WPF.Controls.DragCancelEventArgs">
+            <summary>
+            Represents the DragCancelEventArgs class.
+            </summary>
+        </member>
+        <member name="M:VIBlend.WPF.Controls.DragCancelEventArgs.#ctor(System.Double,System.Double,System.Windows.FrameworkElement,System.Windows.FrameworkElement)">
+            <summary>
+            Initializes a new instance of the <see cref="T:VIBlend.WPF.Controls.DragCancelEventArgs"/> class.
+            </summary>
+            <param name="x">The x.</param>
+            <param name="y">The y.</param>
+            <param name="source">The source.</param>
+            <param name="target">The target.</param>
+        </member>
+        <member name="P:VIBlend.WPF.Controls.DragCancelEventArgs.SourceElement">
+            <summary>
+            Gets the source element.
+            </summary>
+            <value>The source element.</value>
+        </member>
+        <member name="P:VIBlend.WPF.Controls.DragCancelEventArgs.TargetElement">
+            <summary>
+            Gets the target element.
+            </summary>
+            <value>The target element.</value>
+        </member>
+        <member name="P:VIBlend.WPF.Controls.DragCancelEventArgs.Data">
+            <summary>
+            Gets or sets the data.
+            </summary>
+            <value>The data.</value>
+        </member>
+        <member name="P:VIBlend.WPF.Controls.DragCancelEventArgs.X">
+            <summary>
+            Gets the X.
+            </summary>
+            <value>The X.</value>
+        </member>
+        <member name="P:VIBlend.WPF.Controls.DragCancelEventArgs.Y">
+            <summary>
+            Gets the Y.
+            </summary>
+            <value>The Y.</value>
+        </member>
+        <member name="T:VIBlend.WPF.Controls.ScrollAnimationModes">
+            <summary>
+            Enumeration of the scroll animation modes.
+            </summary>
+        </member>
+        <member name="F:VIBlend.WPF.Controls.ScrollAnimationModes.NO_ANIMATION">
+            <summary>
+            No animation
+            </summary>
+        </member>
+        <member name="F:VIBlend.WPF.Controls.ScrollAnimationModes.DEFAULT">
+            <summary>
+            Default Animation
+            </summary>
+        </member>
+        <member name="F:VIBlend.WPF.Controls.ScrollAnimationModes.SMOOTH_SCROLL">
+            <summary>
+            Smooth Scroll Animation
+            </summary>
+        </member>
+        <member name="T:VIBlend.WPF.Controls.vScrollViewer">
+            <summary>
+            Represents a scrollable area that can contain other child elements.
+            </summary>
+        </member>
+        <member name="M:VIBlend.WPF.Controls.vScrollViewer.#ctor">
+            <exclude/>
+        </member>
+        <member name="M:VIBlend.WPF.Controls.vScrollViewer.GetVerticalValue">
+            <summary>
+            Gets the vertical value.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:VIBlend.WPF.Controls.vScrollViewer.GetHorizontalValue">
+            <summary>
+            Gets the horizontal value.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:VIBlend.WPF.Controls.vScrollViewer.SetVerticalValue(System.Double)">
+            <summary>
+            Sets the vertical value.
+            </summary>
+            <param name="value">The value.</param>
+        </member>
+        <member name="M:VIBlend.WPF.Controls.vScrollViewer.SetHorizontalValue(System.Double)">
+            <summary>
+            Sets the horizontal value.
+            </summary>
+            <param name="value">The value.</param>
+        </member>
+        <member name="F:VIBlend.WPF.Controls.vScrollViewer.ScrollAnimationTimeProperty">
+            <exclude/>
+        </member>
+        <member name="F:VIBlend.WPF.Controls.vScrollViewer.ScrollAnimationModeProperty">
+            <exclude/>
+        </member>
+        <member name="F:VIBlend.WPF.Controls.vScrollViewer.VerticalScrollPositionProperty">
+            <exclude/>
+        </member>
+        <member name="F:VIBlend.WPF.Controls.vScrollViewer.HorizontalScrollPositionProperty">
+            <exclude/>
+        </member>
+        <member name="M:VIBlend.WPF.Controls.vScrollViewer.OnApplyTemplate">
+            <summary>
+            Called when an internal process or application calls <see cref="M:System.Windows.FrameworkElement.ApplyTemplate"/>, which is used to build the current template's visual tree.
+            </summary>
+        </member>
+        <member name="M:VIBlend.WPF.Controls.vScrollViewer.OnMouseWheel(System.Windows.Input.MouseWheelEventArgs)">
+            <summary>
+            Responds to a click of the mouse wheel.
+            </summary>
+            <param name="e">Required arguments that describe this event.</param>
+        </member>
+        <member name="P:VIBlend.WPF.Controls.vScrollViewer.ScrollAnimationTime">
+            <summary>
+            Gets or sets the duration of the scroll animation.
+            </summary>
+        </member>
+        <member name="P:VIBlend.WPF.Controls.vScrollViewer.ScrollAnimationMode">
+            <summary>
+            Gets or sets the scroll animation mode.
+            </summary>
+        </member>
+        <member name="P:VIBlend.WPF.Controls.vScrollViewer.HorizontalScroll">
+            <summary>
+            Gets or sets the horizontal scroll position
+            </summary>
+        </member>
+        <member name="P:VIBlend.WPF.Controls.vScrollViewer.VerticalScroll">
+            <summary>
+            Gets or sets the vertical scroll position
+            </summary>
+        </member>
+        <member name="T:VIBlend.WPF.Controls.TextImageRelation">
+            <summary>
+            Represents Text and Image relation enum.
+            </summary>
+        </member>
+        <member name="F:VIBlend.WPF.Controls.TextImageRelation.ImageBeforeText">
+            <summary>
+            Image is before text.
+            </summary>
+        </member>
+        <member name="F:VIBlend.WPF.Controls.TextImageRelation.ImageAboveText">
+            <summary>
+            Image is above text.
+            </summary>
+        </member>
+        <member name="F:VIBlend.WPF.Controls.TextImageRelation.TextAboveImage">
+            <summary>
+            Text is above the image.
+            </summary>
+        </member>
+        <member name="F:VIBlend.WPF.Controls.TextImageRelation.TextBeforeImage">
+            <summary>
+            Text is before the image.
+            </summary>
+        </member>
+        <member name="F:VIBlend.WPF.Controls.TextImageRelation.Overlay">
+            <summary>
+            The text and the image are one over another.
+            </summary>
+        </member>
+        <member name="T:VIBlend.WPF.Controls.AnimationType">
+            <summary>
+            Represents an AnimationType enumeration.
+            </summary>
+        </member>
+        <member name="F:VIBlend.WPF.Controls.AnimationType.None">
+            <exclude/>
+        </member>
+        <member name="F:VIBlend.WPF.Controls.AnimationType.Bounds">
+            <exclude/>
+        </member>
+        <member name="F:VIBlend.WPF.Controls.AnimationType.Opacity">
+            <exclude/>
+        </member>
+        <member name="T:VIBlend.WPF.Controls.ScrollType">
+            <exclude/>
+        </member>
+        <member name="F:VIBlend.WPF.Controls.ScrollType.Click">
+            <exclude/>
+        </member>
+        <member name="F:VIBlend.WPF.Controls.ScrollType.Hover">
+            <exclude/>
+        </member>
+        <member name="T:VIBlend.WPF.Controls.ItemsControlHelper">
+            <exclude/>
+        </member>
+        <member name="M:VIBlend.WPF.Controls.ItemsControlHelper.#ctor(System.Windows.Controls.ItemsControl)">
+            <exclude/>
+        </member>
+        <member name="M:VIBlend.WPF.Controls.ItemsControlHelper.OnApplyTemplate">
+            <exclude/>
+        </member>
+        <member name="M:VIBlend.WPF.Controls.ItemsControlHelper.PrepareContainerForItemOverride(System.Windows.DependencyObject,System.Windows.Style)">
+            <exclude/>
+        </member>
+        <member name="M:VIBlend.WPF.Controls.ItemsControlHelper.UpdateItemContainerStyle(System.Windows.Style)">
+            <exclude/>
+        </member>
+        <member name="M:VIBlend.WPF.Controls.ItemsControlHelper.ScrollIntoView(System.Windows.FrameworkElement)">
+            <exclude/>
+        </member>
+        <member name="T:VIBlend.WPF.Controls.DragDropManager">
+            <summary>
+            Represents the DragDropManager class.
+            </summary>
+        </member>
+        <member name="M:VIBlend.WPF.Controls.DragDropManager.GetAllowDrag(System.Windows.UIElement)">
+            <summary>
+            Gets whether the user can drag the element.
+            </summary>
+            <param name="element">The element.</param>
+            <returns></returns>
+        </member>
+        <member name="M:VIBlend.WPF.Controls.DragDropManager.SetAllowDrag(System.Windows.UIElement,System.Boolean)">
+            <summary>
+            Sets whether the user can drag the element.
+            </summary>
+            <param name="element">The element.</param>
+            <param name="value">if set to <c>true</c> [value].</param>
+        </member>
+        <member name="M:VIBlend.WPF.Controls.DragDropManager.OnDragCanceled">
+            <summary>
+            Called when the drag operation is canceled.
+            </summary>
+        </member>
+        <member name="M:VIBlend.WPF.Controls.DragDropManager.OnItemDragStarting(VIBlend.WPF.Controls.DragCancelEventArgs)">
+            <summary>
+            Raises the <see cref="E:ItemDragStarting"/> event.
+            </summary>
+            <param name="args">The <see cref="T:VIBlend.WPF.Controls.DragCancelEventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:VIBlend.WPF.Controls.DragDropManager.OnDragOver(VIBlend.WPF.Controls.DragEventArgs)">
+            <exclude/>
+        </member>
+        <member name="M:VIBlend.WPF.Controls.DragDropManager.OnDragDrop(VIBlend.WPF.Controls.DragEventArgs)">
+            <exclude/>
+        </member>
+        <member name="M:VIBlend.WPF.Controls.DragDropManager.OnItemDragging(VIBlend.WPF.Controls.DragFeedbackEventArgs)">
+            <exclude/>
+        </member>
+        <member name="M:VIBlend.WPF.Controls.DragDropManager.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:VIBlend.WPF.Controls.DragDropManager"/> class.
+            </summary>
+        </member>
+        <member name="M:VIBlend.WPF.Controls.DragDropManager.Contains(System.Windows.FrameworkElement)">
+            <summary>
+            Determines whether the item is part of the drag drop manager.
+            </summary>
+            <param name="element">The element.</param>
+        </member>
+        <member name="M:VIBlend.WPF.Controls.DragDropManager.AddDragDropElement(System.Windows.FrameworkElement)">
+            <summary>
+            Adds the drag drop element.
+            </summary>
+            <param name="element">The element.</param>
+        </member>
+        <member name="M:VIBlend.WPF.Controls.DragDropManager.AddDragDropElement(System.Windows.FrameworkElement,System.Boolean)">
+            <summary>
+            Adds the drag drop element.
+            </summary>
+            <param name="element">The element.</param>
+            <param name="allowDrag">if set to <c>true</c> [allow drag].</param>
+        </member>
+        <member name="M:VIBlend.WPF.Controls.DragDropManager.GetElementAtPoint(System.Windows.Input.MouseEventArgs)">
+            <summary>
+            Gets the element at point.
+            </summary>
+            <param name="args">The <see cref="T:System.Windows.Input.MouseEventArgs"/> instance containing the event data.</param>
+            <returns></returns>
+        </member>
+        <member name="M:VIBlend.WPF.Controls.DragDropManager.OnDragEnded">
+            <summary>
+            Called when drag operation ended.
+            </summary>
+        </member>
+        <member name="M:VIBlend.WPF.Controls.DragDropManager.EndDrag">
+            <summary>
+            Ends the drag.
+            </summary>
+        </member>
+        <member name="M:VIBlend.WPF.Controls.DragDropManager.Clear">
+            <summary>
+            Clears this instance.
+            </summary>
+        </member>
+        <member name="M:VIBlend.WPF.Controls.DragDropManager.RemoveDragDropElement(System.Windows.FrameworkElement)">
+            <summary>
+            Removes the drag drop element.
+            </summary>
+            <param name="element">The element.</param>
+        </member>
+        <member name="P:VIBlend.WPF.Controls.DragDropManager.FeedbackBorder">
+            <summary>
+            Gets the feedback border.
+            </summary>
+            <value>The feedback border.</value>
+        </member>
+        <member name="P:VIBlend.WPF.Controls.DragDropManager.Data">
+            <summary>
+            Gets the data.
+            </summary>
+            <value>The data.</value>
+        </member>
+        <member name="P:VIBlend.WPF.Controls.DragDropManager.ShowTargetFeedback">
+            <summary>
+            Gets or sets a value indicating whether to show the target feedback.
+            </summary>
+        </member>
+        <member name="E:VIBlend.WPF.Controls.DragDropManager.DragOver">
+            <summary>
+            Occurs when the dragged item is over a drop target.
+            </summary>
+        </member>
+        <member name="E:VIBlend.WPF.Controls.DragDropManager.DragDrop">
+            <summary>
+            Occurs when the drag item is dropped.
+            </summary>
+        </member>
+        <member name="E:VIBlend.WPF.Controls.DragDropManager.ItemDragging">
+            <summary>
+            Occurs when the item is draggig,
+            </summary>
+        </member>
+        <member name="E:VIBlend.WPF.Controls.DragDropManager.ItemDragStarting">
+            <summary>
+            Occurs when the drag operation is starting.
+            </summary>
+        </member>
+        <member name="E:VIBlend.WPF.Controls.DragDropManager.DragCanceled">
+            <summary>
+            Occurs when the drag operation is canceled.
+            </summary>
+        </member>
+        <member name="P:VIBlend.WPF.Controls.DragDropManager.Count">
+            <summary>
+            Gets the count.
+            </summary>
+            <value>The count.</value>
+        </member>
+        <member name="P:VIBlend.WPF.Controls.DragDropManager.IsDragging">
+            <summary>
+            Gets a value indicating whether this instance is dragging.
+            </summary>
+            <value>
+            	<c>true</c> if this instance is dragging; otherwise, <c>false</c>.
+            </value>
+        </member>
+        <member name="P:VIBlend.WPF.Controls.DragDropManager.FeedbackPopup">
+            <summary>
+            Gets the feedback popup.
+            </summary>
+            <value>The feedback popup.</value>
+        </member>
+        <member name="E:VIBlend.WPF.Controls.DragDropManager.DragEnded">
+            <summary>
+            Occurs when the drag operation ended.
+            </summary>
+        </member>
+        <member name="T:VIBlend.WPF.Controls.ScrollablePanel">
+            <summary>Represents a scrollable area that can contain other visible elements. </summary>
+        </member>
+        <member name="F:VIBlend.WPF.Controls.ScrollablePanel.ElementLeftHorizontalScrollBarName">
+            <exclude/>
+        </member>
+        <member name="F:VIBlend.WPF.Controls.ScrollablePanel.ElementRightHorizontalScrollBarName">
+            <exclude/>
+        </member>
+        <member name="F:VIBlend.WPF.Controls.ScrollablePanel.ElementScrollContentPresenterName">
+            <exclude/>
+        </member>
+        <member name="F:VIBlend.WPF.Controls.ScrollablePanel.ElementTopVerticalScrollBarName">
+            <exclude/>
+        </member>
+        <member name="F:VIBlend.WPF.Controls.ScrollablePanel.ElementBottomVerticalScrollBarName">
+            <exclude/>
+        </member>
+        <member name="F:VIBlend.WPF.Controls.ScrollablePanel.ComputedHorizontalScrollBarVisibilityProperty">
+            <exclude/>
+        </member>
+        <member name="F:VIBlend.WPF.Controls.ScrollablePanel.ComputedVerticalScrollBarVisibilityProperty">
+            <exclude/>
+        </member>
+        <member name="F:VIBlend.WPF.Controls.ScrollablePanel.ExtentHeightProperty">
+            <exclude/>
+        </member>
+        <member name="F:VIBlend.WPF.Controls.ScrollablePanel.ExtentWidthProperty">
+            <exclude/>
+        </member>
+        <member name="F:VIBlend.WPF.Controls.ScrollablePanel.HorizontalOffsetProperty">
+            <exclude/>
+        </member>
+        <member name="F:VIBlend.WPF.Controls.ScrollablePanel.HorizontalScrollBarVisibilityProperty">
+            <exclude/>
+        </member>
+        <member name="F:VIBlend.WPF.Controls.ScrollablePanel.ScrollableHeightProperty">
+            <exclude/>
+        </member>
+        <member name="F:VIBlend.WPF.Controls.ScrollablePanel.ScrollableWidthProperty">
+            <exclude/>
+        </member>
+        <member name="F:VIBlend.WPF.Controls.ScrollablePanel.VerticalOffsetProperty">
+            <exclude/>
+        </member>
+        <member name="F:VIBlend.WPF.Controls.ScrollablePanel.VerticalScrollBarVisibilityProperty">
+            <exclude/>
+        </member>
+        <member name="F:VIBlend.WPF.Controls.ScrollablePanel.ViewportHeightProperty">
+            <exclude/>
+        </member>
+        <member name="F:VIBlend.WPF.Controls.ScrollablePanel.ViewportWidthProperty">
+            <exclude/>
+        </member>
+        <member name="F:VIBlend.WPF.Controls.ScrollablePanel.ScrollTypeProperty">
+            <exclude/>
+        </member>
+        <member name="F:VIBlend.WPF.Controls.ScrollablePanel.DelayProperty">
+            <exclude/>
+        </member>
+        <member name="F:VIBlend.WPF.Controls.ScrollablePanel.IntervalProperty">
+            <exclude/>
+        </member>
+        <member name="F:VIBlend.WPF.Controls.ScrollablePanel.AccelerationMaxStepProperty">
+            <exclude/>
+        </member>
+        <member name="M:VIBlend.WPF.Controls.ScrollablePanel.#ctor">
+            <summary>Initializes a new instance of the <see cref="T:System.Windows.Controls.CustomScrollViewer" /> class. </summary>
+        </member>
+        <member name="M:VIBlend.WPF.Controls.ScrollablePanel.GetHorizontalScrollBarVisibility(System.Windows.DependencyObject)">
+            <exclude/>
+        </member>
+        <member name="M:VIBlend.WPF.Controls.ScrollablePanel.GetVerticalScrollBarVisibility(System.Windows.DependencyObject)">
+            <exclude/>
+        </member>
+        <member name="M:VIBlend.WPF.Controls.ScrollablePanel.InvalidateScrollInfo">
+            <summary>Called when the value of properties that describe the size and location of the scroll area change. </summary>
+        </member>
+        <member name="M:VIBlend.WPF.Controls.ScrollablePanel.MeasureOverride(System.Windows.Size)">
+            <summary>
+            Called to remeasure a control.
+            </summary>
+            <param name="constraint">The maximum size that the method can return.</param>
+            <returns>
+            The size of the control, up to the maximum specified by <paramref name="constraint"/>.
+            </returns>
+        </member>
+        <member name="M:VIBlend.WPF.Controls.ScrollablePanel.OnApplyTemplate">
+            <summary>Builds the visual tree for the <see cref="T:System.Windows.Controls.CustomScrollViewer" /> control when a new template is applied.</summary>
+        </member>
+        <member name="M:VIBlend.WPF.Controls.ScrollablePanel.OnKeyDown(System.Windows.Input.KeyEventArgs)">
+            <exclude/>
+        </member>
+        <member name="M:VIBlend.WPF.Controls.ScrollablePanel.OnMouseLeftButtonDown(System.Windows.Input.MouseButtonEventArgs)">
+            <exclude/>
+        </member>
+        <member name="M:VIBlend.WPF.Controls.ScrollablePanel.ScrollToHorizontalOffset(System.Double)">
+            <summary>Scrolls the content that is within the <see cref="T:System.Windows.Controls.CustomScrollViewer" /> to the specified horizontal offset position.</summary>
+            <param name="offset">The position that the content scrolls to.</param>
+        </member>
+        <member name="M:VIBlend.WPF.Controls.ScrollablePanel.ScrollToVerticalOffset(System.Double)">
+            <summary>Scrolls the content that is within the <see cref="T:System.Windows.Controls.CustomScrollViewer" /> to the specified vertical offset position.</summary>
+            <param name="offset">The position that the content scrolls to.</param>
+        </member>
+        <member name="M:VIBlend.WPF.Controls.ScrollablePanel.SetHorizontalScrollBarVisibility(System.Windows.DependencyObject,System.Windows.Controls.ScrollBarVisibility)">
+            <summary>Sets the value of the <see cref="P:System.Windows.Controls.CustomScrollViewer.HorizontalScrollBarVisibility" /> dependency property to a specified element.</summary>
+            <param name="element">The element on which to set the property value.</param>
+            <param name="horizontalScrollBarVisibility">The property value to set.</param>
+            <exception cref="T:System.ArgumentNullException">
+            <paramref name="element" /> is null.</exception>
+        </member>
+        <member name="M:VIBlend.WPF.Controls.ScrollablePanel.SetVerticalScrollBarVisibility(System.Windows.DependencyObject,System.Windows.Controls.ScrollBarVisibility)">
+            <summary>Sets the value of the <see cref="P:System.Windows.Controls.CustomScrollViewer.VerticalScrollBarVisibility" /> dependency property to a specified element.</summary>
+            <param name="element">The element on which to set the property value.</param>
+            <param name="verticalScrollBarVisibility">The property value to set.</param>
+            <exception cref="T:System.ArgumentNullException">
+            <paramref name="element" /> is null.</exception>
+        </member>
+        <member name="P:VIBlend.WPF.Controls.ScrollablePanel.AccelerationMaxStep">
+            <summary>
+            Gets or sets the acceleration max step.
+            </summary>
+            <value>The acceleration max step.</value>
+        </member>
+        <member name="P:VIBlend.WPF.Controls.ScrollablePanel.Delay">
+            <summary>
+            Gets or sets the delay.
+            </summary>
+            <value>The delay.</value>
+        </member>
+        <member name="P:VIBlend.WPF.Controls.ScrollablePanel.Interval">
+            <summary>
+            Gets or sets the interval.
+            </summary>
+            <value>The interval.</value>
+        </member>
+        <member name="P:VIBlend.WPF.Controls.ScrollablePanel.ScrollType">
+            <summary>
+            Gets or sets the type of the scroll.
+            </summary>
+            <value>The type of the scroll.</value>
+        </member>
+        <member name="P:VIBlend.WPF.Controls.ScrollablePanel.ComputedHorizontalScrollBarVisibility">
+            <summary>Gets a value that indicates whether the horizontal <see cref="T:System.Windows.Controls.Primitives.ScrollBar" /> is visible. </summary>
+            <returns>A <see cref="T:System.Windows.Visibility" /> that indicates whether the horizontal scroll bar is visible. The default value is <see cref="F:System.Windows.Controls.ScrollBarVisibility.Hidden" />.</returns>
+        </member>
+        <member name="P:VIBlend.WPF.Controls.ScrollablePanel.ComputedVerticalScrollBarVisibility">
+            <summary>Gets a value that indicates whether the vertical <see cref="T:System.Windows.Controls.Primitives.ScrollBar" /> is visible. </summary>
+            <returns>A <see cref="T:System.Windows.Visibility" /> that indicates whether the vertical scroll bar is visible. The default value is <see cref="F:System.Windows.Controls.ScrollBarVisibility.Visible" />.</returns>
+        </member>
+        <member name="P:VIBlend.WPF.Controls.ScrollablePanel.ElementLeftHorizontalScrollBar">
+            <summary>
+            Gets or sets the element left horizontal scroll bar.
+            </summary>
+            <value>The element left horizontal scroll bar.</value>
+        </member>
+        <member name="P:VIBlend.WPF.Controls.ScrollablePanel.ElementRightHorizontalScrollBar">
+            <summary>
+            Gets or sets the element right horizontal scroll bar.
+            </summary>
+            <value>The element right horizontal scroll bar.</value>
+        </member>
+        <member name="P:VIBlend.WPF.Controls.ScrollablePanel.ElementTopVerticalScrollBar">
+            <summary>
+            Gets or sets the element top vertical scroll bar.
+            </summary>
+            <value>The element top vertical scroll bar.</value>
+        </member>
+        <member name="P:VIBlend.WPF.Controls.ScrollablePanel.ElementBottomVerticalScrollBar">
+            <summary>
+            Gets or sets the element bottom vertical scroll bar.
+            </summary>
+            <value>The element bottom vertical scroll bar.</value>
+        </member>
+        <member name="P:VIBlend.WPF.Controls.ScrollablePanel.ExtentHeight">
+            <summary>Gets the vertical size of all the content for display in the <see cref="T:System.Windows.Controls.CustomScrollViewer" />.</summary>
+            <returns>The vertical size of all the content for display in the <see cref="T:System.Windows.Controls.CustomScrollViewer" />.</returns>
+        </member>
+        <member name="P:VIBlend.WPF.Controls.ScrollablePanel.ExtentWidth">
+            <summary>Gets the horizontal size of all the content for display in the <see cref="T:System.Windows.Controls.CustomScrollViewer" />.</summary>
+            <returns>The horizontal size of all the content for display in the <see cref="T:System.Windows.Controls.CustomScrollViewer" />.</returns>
+        </member>
+        <member name="P:VIBlend.WPF.Controls.ScrollablePanel.HorizontalOffset">
+            <summary>Gets a value that contains the horizontal offset of the scrolled content. </summary>
+            <returns>The horizontal offset of the scrolled content. The default value is 0.0.</returns>
+        </member>
+        <member name="P:VIBlend.WPF.Controls.ScrollablePanel.HorizontalScrollBarVisibility">
+            <summary>Gets or sets a value that indicates whether a horizontal <see cref="T:System.Windows.Controls.Primitives.ScrollBar" /> should be displayed.</summary>
+            <returns>A <see cref="T:System.Windows.Controls.ScrollBarVisibility" /> value that indicates whether a horizontal <see cref="T:System.Windows.Controls.Primitives.ScrollBar" /> should be displayed. The default value is <see cref="F:System.Windows.Controls.ScrollBarVisibility.Hidden" />.</returns>
+        </member>
+        <member name="P:VIBlend.WPF.Controls.ScrollablePanel.ScrollableHeight">
+            <summary>Gets a value that represents the vertical size of the area that can be scrolled; the difference between the width of the extent and the width of the viewport.</summary>
+            <returns>The vertical size of the area that can be scrolled. This property has no default value.</returns>
+        </member>
+        <member name="P:VIBlend.WPF.Controls.ScrollablePanel.ScrollableWidth">
+            <summary>Gets a value that represents the horizontal size of the area that can be scrolled; the difference between the width of the extent and the width of the viewport.. </summary>
+            <returns>The horizontal size of the area that can be scrolled. This property has no default value.</returns>
+        </member>
+        <member name="P:VIBlend.WPF.Controls.ScrollablePanel.VerticalOffset">
+            <summary>Gets a value that contains the vertical offset of the scrolled content.</summary>
+            <returns>The vertical offset of the scrolled content. The default value is 0.0.</returns>
+        </member>
+        <member name="P:VIBlend.WPF.Controls.ScrollablePanel.VerticalScrollBarVisibility">
+            <summary>Gets or sets a value that indicates whether a vertical <see cref="T:System.Windows.Controls.Primitives.ScrollBar" /> should be displayed. </summary>
+            <returns>A <see cref="T:System.Windows.Controls.ScrollBarVisibility" /> value that indicates whether a vertical <see cref="T:System.Windows.Controls.Primitives.ScrollBar" /> should be displayed. The default value is <see cref="F:System.Windows.Controls.ScrollBarVisibility.Visible" />.</returns>
+        </member>
+        <member name="P:VIBlend.WPF.Controls.ScrollablePanel.ViewportHeight">
+            <summary>Gets a value that contains the vertical size of the viewable content. </summary>
+            <returns>The vertical size of the viewable content. This property has no default value.</returns>
+        </member>
+        <member name="P:VIBlend.WPF.Controls.ScrollablePanel.ViewportWidth">
+            <summary>Gets a value that contains the horizontal size of the viewable content.</summary>
+            <returns>The horizontal size of the viewable content. The default value is 0.0.</returns>
+        </member>
+        <member name="T:VIBlend.WPF.Controls.Licensing">
+            <exclude/>
+        </member>
+        <member name="F:VIBlend.WPF.Controls.Licensing.licenseContent">
+            <summary>
+            Gets or sets the license info content
+            </summary>
+        </member>
+        <member name="M:VIBlend.WPF.Controls.Licensing.ValidateLicense(System.Type)">
+            <summary>
+            Validates the license.
+            </summary>
+            <param name="controlType">Type of the control.</param>
+            <returns></returns>
+        </member>
+        <member name="M:VIBlend.WPF.Controls.Licensing.LICheck(System.Windows.FrameworkElement)">
+            <exclude/>
+        </member>
+        <member name="P:VIBlend.WPF.Controls.Licensing.LicenseContent">
+            <summary>
+            Gets or sets the content of the license.
+            </summary>
+            <value>The content of the license.</value>
+        </member>
+    </members>
+</doc>

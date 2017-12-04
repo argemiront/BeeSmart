@@ -1,0 +1,227 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{1C051D4A-E9B8-43CE-ADAF-84DA0706ECEF}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>core</RootNamespace>
+    <AssemblyName>core</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+    <Utf8Output>true</Utf8Output>
+    <ExpressionBlendVersion>4.0.20525.0</ExpressionBlendVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Expression.Effects" />
+    <Reference Include="Microsoft.Expression.Interactions" />
+    <Reference Include="PresentationFramework.Aero" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Windows.Interactivity" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="VIBlend.WPF.Editors, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5f568d4f9cd901f1" />
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="WPFDeveloperTools.Controls">
+      <HintPath>..\..\..\..\..\..\Downloads\C# Librarys\WPFDeveloperTools\WPFDeveloperTools.Controls\obj\Debug\WPFDeveloperTools.Controls.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Compile Include="AutMachine\Action.cs" />
+    <Compile Include="AutMachine\AND.cs" />
+    <Compile Include="AutMachine\ClockInterval.cs" />
+    <Compile Include="AutMachine\CopyAnalog.cs" />
+    <Compile Include="AutMachine\DateInterval.cs" />
+    <Compile Include="AutMachine\DayWeekInterval.cs" />
+    <Compile Include="AutMachine\Dimmer.cs" />
+    <Compile Include="AutMachine\NOT.cs" />
+    <Compile Include="AutMachine\ToOff.cs" />
+    <Compile Include="AutMachine\ToOn.cs" />
+    <Compile Include="AutMachine\UpDown.cs" />
+    <Compile Include="AutTab.cs" />
+    <Compile Include="AutomacaoBase.xaml.cs">
+      <DependentUpon>AutomacaoBase.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="GrdModulo.cs" />
+    <Compile Include="grdModuloControl.xaml.cs">
+      <DependentUpon>grdModuloControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\Resource1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resource1.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Utilities\PWMToOpacityConverter.cs" />
+    <Compile Include="Utilities\VisibilityToEstadoConverter.cs" />
+    <Compile Include="VAR.cs" />
+    <Compile Include="XComm\IO\ByteOrder.cs" />
+    <Compile Include="XComm\IO\ByteReader.cs" />
+    <Compile Include="XComm\IO\ByteUtil.cs" />
+    <Compile Include="XComm\IO\ByteWriter.cs" />
+    <Compile Include="XComm\XBee\Request\AtCommand.cs" />
+    <Compile Include="XComm\XBee\Request\AtQueueCommand.cs" />
+    <Compile Include="XComm\XBee\Request\AtRemoteCommand.cs" />
+    <Compile Include="XComm\XBee\Request\ZigBeeTransmitRequest.cs" />
+    <Compile Include="XComm\XBee\Request\ZNetTxRequest.cs" />
+    <Compile Include="XComm\XBee\Response\APIIOSupportReceivePacket64bits.cs" />
+    <Compile Include="XComm\XBee\Response\AtCommandResponse.cs" />
+    <Compile Include="XComm\XBee\Response\AtRemoteCommandResponse.cs" />
+    <Compile Include="XComm\XBee\Response\NodeIdentification.cs" />
+    <Compile Include="XComm\XBee\Response\XBeeSensorRead.cs" />
+    <Compile Include="XComm\XBee\Response\ZigBeeIODataSample.cs" />
+    <Compile Include="XComm\XBee\Response\ZigbeeReceivePacket.cs" />
+    <Compile Include="XComm\XBee\XBee.cs" />
+    <Compile Include="XComm\XBee\XBeeApiType.cs" />
+    <Compile Include="XComm\XBee\XBeeChecksum.cs" />
+    <Compile Include="XComm\XBee\XBeePacket.cs" />
+    <Compile Include="XComm\XBee\XBeeReader.cs" />
+    <Compile Include="XComm\XBee\XBeeRequest.cs" />
+    <Compile Include="XComm\XBee\XBeeResponse.cs" />
+    <Compile Include="XComm\XComm.cs" />
+    <Page Include="AutomacaoBase.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="grdModuloControl.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="MainWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ICommunication.cs" />
+    <Compile Include="MainWindow.xaml.cs">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Page Include="Simple Styles.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Resource1.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resource1.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <AppDesigner Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="TODO%27s e idéias.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\ufersa_icon.png" />
+    <Resource Include="Resources\UFERSA_LOGO.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\interruptor.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\sensor presença.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\piso2.bmp" />
+    <Resource Include="Resources\terreo.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\placasinalizacaobanheiromasculino.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\temperatura.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\lampada.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\controle portão.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\quarto.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\motor portão.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\audio.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\casa.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\quarto.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

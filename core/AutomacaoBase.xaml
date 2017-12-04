@@ -1,0 +1,378 @@
+﻿<UserControl
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+	xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+	xmlns:viblendEditors="clr-namespace:VIBlend.WPF.Controls;assembly=VIBlend.WPF.Editors"
+	xmlns:WPFDeveloperTools_Controls_RealTimeClockTextBlock="clr-namespace:WPFDeveloperTools.Controls.RealTimeClockTextBlock;assembly=WPFDeveloperTools.Controls"
+	mc:Ignorable="d"
+	x:Class="core.AutomacaoBase"
+	x:Name="UserControl"
+	d:DesignWidth="517.809" d:DesignHeight="472.04">
+
+	<UserControl.Resources>
+		<Style x:Key="TabItemFocusVisual">
+			<Setter Property="Control.Template">
+				<Setter.Value>
+					<ControlTemplate>
+						<Rectangle Margin="3,3,3,1" SnapsToDevicePixels="true" Stroke="{DynamicResource {x:Static SystemColors.ControlTextBrushKey}}" StrokeThickness="1" StrokeDashArray="1 2"/>
+					</ControlTemplate>
+				</Setter.Value>
+			</Setter>
+		</Style>
+		<SolidColorBrush x:Key="TabControlNormalBorderBrush" Color="#8C8E94"/>
+		<LinearGradientBrush x:Key="ButtonNormalBackground" EndPoint="0,1" StartPoint="0,0">
+			<GradientStop Color="#F3F3F3" Offset="0"/>
+			<GradientStop Color="#EBEBEB" Offset="0.5"/>
+			<GradientStop Color="#DDDDDD" Offset="0.5"/>
+			<GradientStop Color="#CDCDCD" Offset="1"/>
+		</LinearGradientBrush>
+		<Style x:Key="TabItemStyle1" TargetType="{x:Type TabItem}">
+			<Setter Property="FocusVisualStyle" Value="{StaticResource TabItemFocusVisual}"/>
+			<Setter Property="Foreground" Value="Black"/>
+			<Setter Property="Padding" Value="6,1,6,1"/>
+			<Setter Property="BorderBrush" Value="{StaticResource TabControlNormalBorderBrush}"/>
+			<Setter Property="Background" Value="{StaticResource ButtonNormalBackground}"/>
+			<Setter Property="HorizontalContentAlignment" Value="Stretch"/>
+			<Setter Property="VerticalContentAlignment" Value="Stretch"/>
+		</Style>
+	</UserControl.Resources>
+
+	<Grid x:Name="LayoutRoot">
+		<TabControl x:Name="Automacao" Margin="0,0,0.001,0" RenderTransformOrigin="0.5,0.5" Background="#00F9F9F9" BorderBrush="#FF595959" BorderThickness="1" Tag="1" d:LayoutOverrides="GridBox">
+			<TabControl.RenderTransform>
+				<TransformGroup>
+					<ScaleTransform ScaleY="1" ScaleX="1"/>
+					<SkewTransform AngleY="0" AngleX="0"/>
+					<RotateTransform Angle="0"/>
+					<TranslateTransform/>
+				</TransformGroup>
+			</TabControl.RenderTransform>
+			<TabItem x:Name="tbiTimer" Header="Tempo" RenderTransformOrigin="0.5,0.5" BorderBrush="#4C8C8E94">
+				<TabItem.Background>
+					<LinearGradientBrush EndPoint="0,1" StartPoint="0,0">
+						<GradientStop Color="#4CF3F3F3" Offset="0"/>
+						<GradientStop Color="#4CEBEBEB" Offset="0.5"/>
+						<GradientStop Color="#4CDDDDDD" Offset="0.5"/>
+						<GradientStop Color="#4CCDCDCD" Offset="1"/>
+					</LinearGradientBrush>
+				</TabItem.Background>
+				<TabItem.RenderTransform>
+					<TransformGroup>
+						<ScaleTransform ScaleY="1" ScaleX="1"/>
+						<SkewTransform AngleY="0" AngleX="0"/>
+						<RotateTransform Angle="0"/>
+						<TranslateTransform/>
+					</TransformGroup>
+				</TabItem.RenderTransform>
+				<Grid Background="#00E5E5E5" RenderTransformOrigin="0.5,0.5">
+					<Grid.RenderTransform>
+						<TransformGroup>
+							<ScaleTransform ScaleY="1" ScaleX="1"/>
+							<SkewTransform AngleY="0" AngleX="0"/>
+							<RotateTransform Angle="0"/>
+							<TranslateTransform/>
+						</TransformGroup>
+					</Grid.RenderTransform>
+					<ToolBar x:Name="dowToolBar" IsOverflowOpen="True" Margin="0,184.08,0,220" HorizontalAlignment="Center">
+						<CheckBox x:Name="chbSeg" Content="Segunda" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Width="63" IsTabStop="False" Tag="diaSemana"/>
+						<CheckBox x:Name="chbTer" Content="Terça" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Width="63" IsTabStop="False" Tag="diaSemana"/>
+						<CheckBox x:Name="chbQua" Content="Quarta" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Width="63" IsTabStop="False" Tag="diaSemana"/>
+						<CheckBox x:Name="chbQui" Content="Quinta" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Width="63" IsTabStop="False" Tag="diaSemana"/>
+						<CheckBox x:Name="chbSex" Content="Sexta" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Width="63" IsTabStop="False" Tag="diaSemana"/>
+						<CheckBox x:Name="chbSab" Content="Sábado" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Width="63" IsTabStop="False" Tag="diaSemana"/>
+						<CheckBox x:Name="chbDom" Content="Domingo" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Width="63" IsTabStop="False" Tag="diaSemana"/>
+					</ToolBar>
+					<Button x:Name="btnDoW" Content="Todos / Nenhum" HorizontalAlignment="Left" Margin="380.404,0,0,180" Width="106" Height="36" VerticalAlignment="Bottom" Tag="dowSelect"/>
+					<Label Content="Começa na data:" HorizontalAlignment="Left" Margin="23,0,0,99.54" Background="#00F4F4F4" Foreground="#FFF4F4F4" VerticalAlignment="Bottom"/>
+					<DatePicker x:Name="dtpInic" HorizontalAlignment="Left" Margin="125.308,0,0,99.54" VerticalAlignment="Bottom" MaxHeight="24" MaxWidth="105"/>
+					<ToggleButton x:Name="tgbEnableTimer" Content="Habilitado" HorizontalAlignment="Right" Margin="0,0,21.405,8" VerticalAlignment="Bottom" Height="36" Width="103.59" TabIndex="100">
+						<ToggleButton.Effect>
+							<DropShadowEffect BlurRadius="18" Color="White" Direction="0" ShadowDepth="0" Opacity="{Binding IsChecked, ElementName=tgbEnableTimer}"/>
+						</ToggleButton.Effect>
+					</ToggleButton>
+					<Label Content="e termina na data:" Margin="0,0,134.669,99.54" Background="#00F4F4F4" Foreground="#FFF4F4F4" HorizontalAlignment="Right" VerticalAlignment="Bottom"/>
+					<DatePicker x:Name="dtpFim" Margin="0,0,19.667,99.54" HorizontalAlignment="Right" VerticalAlignment="Bottom" MaxHeight="24" MaxWidth="105"/>
+					<Label Content="Nos horários:" HorizontalAlignment="Left" Margin="23,21.58,0,0" Background="#00F4F4F4" Foreground="#FFF4F4F4" VerticalAlignment="Top" FontSize="13.333"/>
+					<Label Content="começa às:" HorizontalAlignment="Left" Margin="115.366,21.58,0,0" Background="#00F4F4F4" Foreground="#FFF4F4F4" VerticalAlignment="Top"/>
+					<Label Content="e termina às:" HorizontalAlignment="Right" Margin="0,21.58,162.669,0" Background="#00F4F4F4" Foreground="#FFF4F4F4" VerticalAlignment="Top"/>
+					<Label Content="começa às:" HorizontalAlignment="Left" Margin="115.366,56.58,0,0" Background="#00F4F4F4" Foreground="#FFF4F4F4" VerticalAlignment="Top"/>
+					<Label Content="e termina às:" HorizontalAlignment="Right" Margin="0,56.58,162.669,0" Background="#00F4F4F4" Foreground="#FFF4F4F4" VerticalAlignment="Top"/>
+					<Label Content="começa às:" HorizontalAlignment="Left" Margin="115.366,91.58,0,0" Background="#00F4F4F4" Foreground="#FFF4F4F4" VerticalAlignment="Top"/>
+					<Label Content="e termina às:" HorizontalAlignment="Right" Margin="0,91.58,162.669,0" Background="#00F4F4F4" Foreground="#FFF4F4F4" VerticalAlignment="Top"/>
+					<Button x:Name="btnClearDTE0" Content="Limpar" HorizontalAlignment="Right" Height="24" Margin="0,22.56,19.667,0" VerticalAlignment="Top" Width="62" Tag="clear0"/>
+					<Button x:Name="btnClearDTE1" Content="Limpar" HorizontalAlignment="Right" Height="24" Margin="0,57.56,19.667,0" VerticalAlignment="Top" Width="62" Tag="clear1"/>
+					<Button x:Name="btnClearDTE2" Content="Limpar" HorizontalAlignment="Right" Margin="0,91.52,19.667,0" Width="62" Height="24" VerticalAlignment="Top" Tag="clear2"/>
+					<Label Content="Nos dias da semana:" HorizontalAlignment="Left" Margin="23,154.58,0,0" Background="#00F4F4F4" Foreground="#FFF4F4F4" VerticalAlignment="Top" FontSize="13.333"/>
+					<Label Content="Entre as datas:" HorizontalAlignment="Left" Margin="23,0,0,131.54" Background="#00F4F4F4" Foreground="#FFF4F4F4" VerticalAlignment="Bottom" FontSize="13.333"/>
+					<viblendEditors:DateTimeEditor Height="24" HorizontalAlignment="Left" Margin="187.289,57.58,0,0" x:Name="dteInic1" VerticalAlignment="Top" Width="50.667" DefaultDateTimeFormat="ShortTimePattern" Culture="(Default)" HorizontalContentAlignment="Center" />
+					<viblendEditors:DateTimeEditor Height="24" HorizontalAlignment="Left" Margin="187.289,92.58,0,0" x:Name="dteInic2" VerticalAlignment="Top" Width="50.667" DefaultDateTimeFormat="ShortTimePattern" Culture="(Default)" HorizontalContentAlignment="Center" />
+					<viblendEditors:DateTimeEditor Height="24" HorizontalAlignment="Right" Margin="0,22.58,108.002,0" x:Name="dteFim0" VerticalAlignment="Top" Width="50.667" DefaultDateTimeFormat="ShortTimePattern" Culture="(Default)" HorizontalContentAlignment="Center" />
+					<viblendEditors:DateTimeEditor Height="24" HorizontalAlignment="Right" Margin="0,56.79,108.002,0" x:Name="dteFim1" VerticalAlignment="Top" Width="50.667" DefaultDateTimeFormat="ShortTimePattern" Culture="(Default)" HorizontalContentAlignment="Center" />
+					<viblendEditors:DateTimeEditor Height="24" HorizontalAlignment="Right" Margin="0,92.58,108.002,0" x:Name="dteFim2" VerticalAlignment="Top" Width="50.667" DefaultDateTimeFormat="ShortTimePattern" Culture="(Default)" HorizontalContentAlignment="Center" />
+					<viblendEditors:DateTimeEditor x:Name="dteInic0" Margin="187.334,22.08,0,0" TextWrapping="Wrap" VerticalAlignment="Top" DefaultDateTimeFormat="ShortTimePattern" HorizontalContentAlignment="Center" HorizontalAlignment="Left" Width="50" Height="24"/>
+				</Grid>
+			</TabItem>
+			<TabItem x:Name="tbiInterruptor" Header="Interruptor" RenderTransformOrigin="0.5,0.5" BorderBrush="#4C8C8E94" Style="{DynamicResource TabItemStyle1}">
+				<TabItem.Background>
+					<LinearGradientBrush EndPoint="0,1" StartPoint="0,0">
+						<GradientStop Color="#4CF3F3F3" Offset="0"/>
+						<GradientStop Color="#4CEBEBEB" Offset="0.5"/>
+						<GradientStop Color="#4CDDDDDD" Offset="0.5"/>
+						<GradientStop Color="#4CCDCDCD" Offset="1"/>
+					</LinearGradientBrush>
+				</TabItem.Background>
+				<TabItem.RenderTransform>
+					<TransformGroup>
+						<ScaleTransform ScaleY="1" ScaleX="1"/>
+						<SkewTransform AngleY="0" AngleX="0"/>
+						<RotateTransform Angle="0"/>
+						<TranslateTransform/>
+					</TransformGroup>
+				</TabItem.RenderTransform>
+				<Grid Background="#00E5E5E5" RenderTransformOrigin="0.5,0.5" Height="440.08" Width="507.809" d:LayoutOverrides="Width, Height, VerticalMargin">
+					<Grid.RenderTransform>
+						<TransformGroup>
+							<ScaleTransform ScaleY="1" ScaleX="1"/>
+							<SkewTransform AngleY="0" AngleX="0"/>
+							<RotateTransform Angle="0"/>
+							<TranslateTransform/>
+						</TransformGroup>
+					</Grid.RenderTransform>
+					<ToggleButton x:Name="tgbEnableInterruptor" Content="Habilitado" HorizontalAlignment="Right" Margin="0,0,21.405,8" VerticalAlignment="Bottom" Height="36" Width="103.59" RenderTransformOrigin="0.5,0.5">
+						<ToggleButton.RenderTransform>
+							<TransformGroup>
+								<ScaleTransform ScaleY="1" ScaleX="1"/>
+								<SkewTransform AngleY="0" AngleX="0"/>
+								<RotateTransform Angle="0"/>
+								<TranslateTransform/>
+							</TransformGroup>
+						</ToggleButton.RenderTransform>
+						<ToggleButton.Effect>
+							<DropShadowEffect BlurRadius="18" Color="White" Direction="0" ShadowDepth="0" Opacity="{Binding IsChecked, ElementName=tgbEnableInterruptor}"/>
+						</ToggleButton.Effect>
+					</ToggleButton>
+					<Image HorizontalAlignment="Left" Margin="60.179,73.361,0,0" Width="83" Height="141.5" VerticalAlignment="Top" Source="Resources/interruptor.jpg"/>
+					<ComboBox x:Name="cbxInterrup0" HorizontalAlignment="Left" Margin="59.81,217.08,0,201.04" Width="84" d:LayoutOverrides="Height"/>
+					<Image Margin="216.179,73.361,208.63,0" Height="141.5" VerticalAlignment="Top" Source="Resources/interruptor.jpg"/>
+					<ComboBox x:Name="cbxInterrup1" Margin="215.81,217.08,207.999,201.04" d:LayoutOverrides="Height"/>
+					<Image Margin="0,73.361,52.63,0" Height="141.5" VerticalAlignment="Top" Source="Resources/interruptor.jpg" HorizontalAlignment="Right" Width="83"/>
+					<ComboBox x:Name="cbxInterrup2" Margin="0,217.08,51.999,201.04" d:LayoutOverrides="Height" HorizontalAlignment="Right" Width="84"/>
+				</Grid>
+			</TabItem>
+			<TabItem x:Name="tbiSensor" Header="Sensor" RenderTransformOrigin="0.5,0.5" BorderBrush="#4C8C8E94" Style="{DynamicResource TabItemStyle1}">
+				<TabItem.Background>
+					<LinearGradientBrush EndPoint="0,1" StartPoint="0,0">
+						<GradientStop Color="#4CF3F3F3" Offset="0"/>
+						<GradientStop Color="#4CEBEBEB" Offset="0.5"/>
+						<GradientStop Color="#4CDDDDDD" Offset="0.5"/>
+						<GradientStop Color="#4CCDCDCD" Offset="1"/>
+					</LinearGradientBrush>
+				</TabItem.Background>
+				<TabItem.RenderTransform>
+					<TransformGroup>
+						<ScaleTransform ScaleY="1" ScaleX="1"/>
+						<SkewTransform AngleY="0" AngleX="0"/>
+						<RotateTransform Angle="0"/>
+						<TranslateTransform/>
+					</TransformGroup>
+				</TabItem.RenderTransform>
+				<Grid Background="#00E5E5E5" RenderTransformOrigin="0.5,0.5" Height="440.08" Width="507.809" d:LayoutOverrides="Width, Height, VerticalMargin">
+					<Grid.RenderTransform>
+						<TransformGroup>
+							<ScaleTransform ScaleY="1" ScaleX="1"/>
+							<SkewTransform AngleY="0" AngleX="0"/>
+							<RotateTransform Angle="0"/>
+							<TranslateTransform/>
+						</TransformGroup>
+					</Grid.RenderTransform>
+					<Image Margin="92.5,83.08,0,190" Source="Resources/sensor presença.jpg" RenderTransformOrigin="0.5,0.5" HorizontalAlignment="Left" Width="128">
+						<Image.RenderTransform>
+							<TransformGroup>
+								<ScaleTransform ScaleY="1" ScaleX="1"/>
+								<SkewTransform AngleY="0" AngleX="0"/>
+								<RotateTransform Angle="0"/>
+								<TranslateTransform/>
+							</TransformGroup>
+						</Image.RenderTransform>
+					</Image>
+					<ComboBox x:Name="cbxSensor0" Margin="92,0,0,153.04" VerticalAlignment="Bottom" HorizontalAlignment="Left" Width="129"/>
+					<Image Margin="0,83.08,76.309,190" Source="Resources/sensor presença.jpg" RenderTransformOrigin="0.5,0.5" HorizontalAlignment="Right" Width="128">
+						<Image.RenderTransform>
+							<TransformGroup>
+								<ScaleTransform ScaleY="1" ScaleX="1"/>
+								<SkewTransform AngleY="0" AngleX="0"/>
+								<RotateTransform Angle="0"/>
+								<TranslateTransform/>
+							</TransformGroup>
+						</Image.RenderTransform>
+					</Image>
+					<ComboBox x:Name="cbxSensor1" Margin="0,0,75.809,153.04" VerticalAlignment="Bottom" HorizontalAlignment="Right" Width="129"/>
+					<ToggleButton x:Name="tgbEnableSensor" Content="Habilitado" HorizontalAlignment="Right" Margin="0,0,21.405,8" VerticalAlignment="Bottom" Height="36" Width="103.59" RenderTransformOrigin="0.5,0.5">
+						<ToggleButton.RenderTransform>
+							<TransformGroup>
+								<ScaleTransform ScaleY="1" ScaleX="1"/>
+								<SkewTransform AngleY="0" AngleX="0"/>
+								<RotateTransform Angle="0"/>
+								<TranslateTransform/>
+							</TransformGroup>
+						</ToggleButton.RenderTransform>
+						<ToggleButton.Effect>
+							<DropShadowEffect BlurRadius="18" Color="White" Direction="0" ShadowDepth="0" Opacity="{Binding IsChecked, ElementName=tgbEnableSensor}"/>
+						</ToggleButton.Effect>
+					</ToggleButton>
+				</Grid>
+			</TabItem>
+			<TabItem x:Name="tbiMotor" Header="Motor" RenderTransformOrigin="0.5,0.5" BorderBrush="#4C8C8E94" Style="{DynamicResource TabItemStyle1}">
+				<TabItem.Background>
+					<LinearGradientBrush EndPoint="0,1" StartPoint="0,0">
+						<GradientStop Color="#4CF3F3F3" Offset="0"/>
+						<GradientStop Color="#4CEBEBEB" Offset="0.5"/>
+						<GradientStop Color="#4CDDDDDD" Offset="0.5"/>
+						<GradientStop Color="#4CCDCDCD" Offset="1"/>
+					</LinearGradientBrush>
+				</TabItem.Background>
+				<TabItem.RenderTransform>
+					<TransformGroup>
+						<ScaleTransform ScaleY="1" ScaleX="1"/>
+						<SkewTransform AngleY="0" AngleX="0"/>
+						<RotateTransform Angle="0"/>
+						<TranslateTransform/>
+					</TransformGroup>
+				</TabItem.RenderTransform>
+				<Grid Background="#00E5E5E5" RenderTransformOrigin="0.5,0.5">
+					<Grid.RenderTransform>
+						<TransformGroup>
+							<ScaleTransform ScaleY="1" ScaleX="1"/>
+							<SkewTransform AngleY="0" AngleX="0"/>
+							<RotateTransform Angle="0"/>
+							<TranslateTransform/>
+						</TransformGroup>
+					</Grid.RenderTransform>
+					<ToggleButton x:Name="tgbEnableMotor" Content="Habilitado" HorizontalAlignment="Right" Margin="0,0,21.405,8" VerticalAlignment="Bottom" Height="36" Width="103.59" RenderTransformOrigin="0.5,0.5">
+						<ToggleButton.RenderTransform>
+							<TransformGroup>
+								<ScaleTransform ScaleY="1" ScaleX="1"/>
+								<SkewTransform AngleY="0" AngleX="0"/>
+								<RotateTransform Angle="0"/>
+								<TranslateTransform/>
+							</TransformGroup>
+						</ToggleButton.RenderTransform>
+						<ToggleButton.Effect>
+							<DropShadowEffect BlurRadius="18" Color="White" Direction="0" ShadowDepth="0" Opacity="{Binding IsChecked, ElementName=tgbEnableMotor}"/>
+						</ToggleButton.Effect>
+					</ToggleButton>
+					<Image HorizontalAlignment="Left" Margin="97.809,115.08,0,179" Width="120" Source="Resources/controle portão.jpg"/>
+					<ComboBox x:Name="cbxControleMtr0" HorizontalAlignment="Left" Margin="97.809,0,0,149.04" VerticalAlignment="Bottom" Width="120"/>
+					<Image Margin="0,115.08,95,179" Source="Resources/controle portão.jpg" HorizontalAlignment="Right" Width="120"/>
+					<ComboBox x:Name="cbxControleMtr1" Margin="0,0,95,149.04" VerticalAlignment="Bottom" HorizontalAlignment="Right" Width="120"/>
+				</Grid>
+			</TabItem>
+			<TabItem x:Name="tbiDimmer" Header="Dimmer" RenderTransformOrigin="0.5,0.5" BorderBrush="#4C8C8E94" Style="{DynamicResource TabItemStyle1}">
+				<TabItem.Background>
+					<LinearGradientBrush EndPoint="0,1" StartPoint="0,0">
+						<GradientStop Color="#4CF3F3F3" Offset="0"/>
+						<GradientStop Color="#4CEBEBEB" Offset="0.5"/>
+						<GradientStop Color="#4CDDDDDD" Offset="0.5"/>
+						<GradientStop Color="#4CCDCDCD" Offset="1"/>
+					</LinearGradientBrush>
+				</TabItem.Background>
+				<TabItem.RenderTransform>
+					<TransformGroup>
+						<ScaleTransform ScaleY="1" ScaleX="1"/>
+						<SkewTransform AngleY="0" AngleX="0"/>
+						<RotateTransform Angle="0"/>
+						<TranslateTransform/>
+					</TransformGroup>
+				</TabItem.RenderTransform>
+				<Grid Background="#00E5E5E5" RenderTransformOrigin="0.5,0.5" Height="440.08" Width="507.809" d:LayoutOverrides="Width, Height, VerticalMargin">
+					<Grid.RenderTransform>
+						<TransformGroup>
+							<ScaleTransform ScaleY="1" ScaleX="1"/>
+							<SkewTransform AngleY="0" AngleX="0"/>
+							<RotateTransform Angle="0"/>
+							<TranslateTransform/>
+						</TransformGroup>
+					</Grid.RenderTransform>
+					<ToggleButton x:Name="tgbEnableDimmer" Content="Habilitado" HorizontalAlignment="Right" Margin="0,0,21.405,8" VerticalAlignment="Bottom" Height="36" Width="103.59" RenderTransformOrigin="0.5,0.5">
+						<ToggleButton.RenderTransform>
+							<TransformGroup>
+								<ScaleTransform ScaleY="1" ScaleX="1"/>
+								<SkewTransform AngleY="0" AngleX="0"/>
+								<RotateTransform Angle="0"/>
+								<TranslateTransform/>
+							</TransformGroup>
+						</ToggleButton.RenderTransform>
+						<ToggleButton.Effect>
+							<DropShadowEffect BlurRadius="18" Color="White" Direction="0" ShadowDepth="0" Opacity="{Binding IsChecked, ElementName=tgbEnableDimmer}"/>
+						</ToggleButton.Effect>
+					</ToggleButton>
+					<Image Margin="217.179,106.361,207.63,192.219" Source="Resources/interruptor.jpg"/>
+					<ComboBox x:Name="cbxDimmer" Margin="217.179,0,207.999,155.04" VerticalAlignment="Bottom" Width="83"/>
+				</Grid>
+			</TabItem>
+			<TabItem x:Name="tbiAlarme" Header="Alarme" RenderTransformOrigin="0.5,0.5" BorderBrush="#4C8C8E94">
+				<TabItem.Background>
+					<LinearGradientBrush EndPoint="0,1" StartPoint="0,0">
+						<GradientStop Color="#4CF3F3F3" Offset="0"/>
+						<GradientStop Color="#4CEBEBEB" Offset="0.5"/>
+						<GradientStop Color="#4CDDDDDD" Offset="0.5"/>
+						<GradientStop Color="#4CCDCDCD" Offset="1"/>
+					</LinearGradientBrush>
+				</TabItem.Background>
+				<TabItem.RenderTransform>
+					<TransformGroup>
+						<ScaleTransform ScaleY="1" ScaleX="1"/>
+						<SkewTransform AngleY="0" AngleX="0"/>
+						<RotateTransform Angle="0"/>
+						<TranslateTransform/>
+					</TransformGroup>
+				</TabItem.RenderTransform>
+				<Grid Background="#00E5E5E5" RenderTransformOrigin="0.5,0.5">
+					<Grid.RenderTransform>
+						<TransformGroup>
+							<ScaleTransform ScaleY="1" ScaleX="1"/>
+							<SkewTransform AngleY="0" AngleX="0"/>
+							<RotateTransform Angle="0"/>
+							<TranslateTransform/>
+						</TransformGroup>
+					</Grid.RenderTransform>
+					<ToolBar x:Name="dowToolBar1" IsOverflowOpen="True" Margin="0,145.08,0,0" HorizontalAlignment="Center" Height="36" VerticalAlignment="Top">
+						<CheckBox x:Name="chbSeg1" Content="Segunda" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Width="63" IsTabStop="False" Tag="diaSemana"/>
+						<CheckBox x:Name="chbTer1" Content="Terça" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Width="63" IsTabStop="False" Tag="diaSemana"/>
+						<CheckBox x:Name="chbQua1" Content="Quarta" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Width="63" IsTabStop="False" Tag="diaSemana"/>
+						<CheckBox x:Name="chbQui1" Content="Quinta" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Width="63" IsTabStop="False" Tag="diaSemana"/>
+						<CheckBox x:Name="chbSex1" Content="Sexta" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Width="63" IsTabStop="False" Tag="diaSemana"/>
+						<CheckBox x:Name="chbSab1" Content="Sábado" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Width="63" IsTabStop="False" Tag="diaSemana"/>
+						<CheckBox x:Name="chbDom1" Content="Domingo" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Width="63" IsTabStop="False" Tag="diaSemana"/>
+					</ToolBar>
+					<Button x:Name="btnDoW1" Content="Todos / Nenhum" HorizontalAlignment="Left" Margin="380.404,185.08,0,219" Width="106" Tag="dowSelectAlarm"/>
+					<ToggleButton x:Name="tgbEnableAlarme" Content="Habilitado" HorizontalAlignment="Right" Margin="0,0,21.405,8" VerticalAlignment="Bottom" Height="36" Width="103.59" TabIndex="100">
+						<ToggleButton.Effect>
+							<DropShadowEffect BlurRadius="18" Color="White" Direction="0" ShadowDepth="0" Opacity="{Binding IsChecked, ElementName=tgbEnableAlarme}"/>
+						</ToggleButton.Effect>
+					</ToggleButton>
+					<Label Content="Nos horários:" HorizontalAlignment="Left" Margin="23,21.58,0,0" Background="#00F4F4F4" Foreground="#FFF4F4F4" VerticalAlignment="Top" FontSize="13.333"/>
+					<Label Content="começa às:" HorizontalAlignment="Left" Margin="115.366,21.58,0,0" Background="#00F4F4F4" Foreground="#FFF4F4F4" VerticalAlignment="Top"/>
+					<Label Content="e termina às:" HorizontalAlignment="Right" Margin="0,21.58,162.669,0" Background="#00F4F4F4" Foreground="#FFF4F4F4" VerticalAlignment="Top"/>
+					<Label Content="começa às:" HorizontalAlignment="Left" Margin="115.366,56.58,0,0" Background="#00F4F4F4" Foreground="#FFF4F4F4" VerticalAlignment="Top"/>
+					<Label Content="e termina às:" HorizontalAlignment="Right" Margin="0,56.58,162.669,0" Background="#00F4F4F4" Foreground="#FFF4F4F4" VerticalAlignment="Top"/>
+					<Button x:Name="btnClearDTEAlarm0" Content="Limpar" HorizontalAlignment="Right" Height="24" Margin="0,22.56,19.667,0" VerticalAlignment="Top" Width="62" Tag="clearA0"/>
+					<Button x:Name="btnClearDTEAlarm1" Content="Limpar" HorizontalAlignment="Right" Height="24" Margin="0,57.56,19.667,0" VerticalAlignment="Top" Width="62" Tag="clearA1"/>
+					<Label Content="Nos dias da semana:" HorizontalAlignment="Left" Margin="23,115.58,0,0" Background="#00F4F4F4" Foreground="#FFF4F4F4" VerticalAlignment="Top" FontSize="13.333"/>
+					<viblendEditors:DateTimeEditor HorizontalAlignment="Left" Margin="185.955,57.913,0,0" x:Name="dteAlarmInic1" VerticalAlignment="Top" DefaultDateTimeFormat="ShortTimePattern" Culture="(Default)" HorizontalContentAlignment="Center" Width="50" Height="24" />
+					<viblendEditors:DateTimeEditor Height="24" HorizontalAlignment="Right" Margin="0,22.58,108.002,0" x:Name="dteAlarmFim0" VerticalAlignment="Top" Width="50.667" DefaultDateTimeFormat="ShortTimePattern" Culture="(Default)" HorizontalContentAlignment="Center" />
+					<viblendEditors:DateTimeEditor Height="24" HorizontalAlignment="Right" Margin="0,56.79,108.002,0" x:Name="dteAlarmFim1" VerticalAlignment="Top" Width="50.667" DefaultDateTimeFormat="ShortTimePattern" Culture="(Default)" HorizontalContentAlignment="Center" />
+					<viblendEditors:DateTimeEditor x:Name="dteAlarmInic0" Margin="185.667,24.04,0,0" TextWrapping="Wrap" VerticalAlignment="Top" DefaultDateTimeFormat="ShortTimePattern" HorizontalContentAlignment="Center" HorizontalAlignment="Left" Width="50" Height="24"/>
+					<Label Content="Com os sensores:" HorizontalAlignment="Left" Margin="23,0,0,177.766" Background="#00F4F4F4" Foreground="#FFF4F4F4" FontSize="13.333" VerticalAlignment="Bottom"/>
+					<Image HorizontalAlignment="Left" Height="86" Margin="30,0,0,77.04" VerticalAlignment="Bottom" Width="67" Source="Resources/sensor presença.jpg"/>
+					<ComboBox x:Name="cbxAlarmSensor0" Margin="30,0,0,45.04" VerticalAlignment="Bottom" HorizontalAlignment="Left" Width="67"/>
+					<Image HorizontalAlignment="Left" Height="86" Margin="130,0,0,77.04" VerticalAlignment="Bottom" Width="67" Source="Resources/sensor presença.jpg"/>
+					<ComboBox x:Name="cbxAlarmSensor1" Margin="130,0,0,45.04" VerticalAlignment="Bottom" HorizontalAlignment="Left" Width="67"/>
+					<Image Height="86" Margin="229,0,211.808,77.04" VerticalAlignment="Bottom" Source="Resources/sensor presença.jpg"/>
+					<ComboBox x:Name="cbxAlarmSensor2" Margin="229,0,211.808,45.04" VerticalAlignment="Bottom"/>
+				</Grid>
+			</TabItem>
+		</TabControl>
+	</Grid>
+</UserControl>

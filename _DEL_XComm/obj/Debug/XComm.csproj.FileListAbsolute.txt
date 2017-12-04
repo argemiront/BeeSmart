@@ -1,0 +1,7 @@
+C:\Users\Argemiro\Documents\UFERSA\IX Período\PDI\BeeSmart\XComm\bin\Debug\XComm.dll
+C:\Users\Argemiro\Documents\UFERSA\IX Período\PDI\BeeSmart\XComm\bin\Debug\XComm.pdb
+C:\Users\Argemiro\Documents\UFERSA\IX Período\PDI\BeeSmart\XComm\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Argemiro\Documents\UFERSA\IX Período\PDI\BeeSmart\XComm\obj\Debug\XComm.dll
+C:\Users\Argemiro\Documents\UFERSA\IX Período\PDI\BeeSmart\XComm\obj\Debug\XComm.pdb
+C:\Users\Argemiro\Documents\UFERSA\IX Período\PDI\BeeSmart\XComm\bin\Debug\AutMachine.dll
+C:\Users\Argemiro\Documents\UFERSA\IX Período\PDI\BeeSmart\XComm\bin\Debug\AutMachine.pdb

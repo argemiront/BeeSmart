@@ -1,0 +1,5 @@
+C:\Users\Argemiro\Documents\UFERSA\IX Período\PDI\BeeSmart\AutMachine\bin\Debug\AutMachine.dll
+C:\Users\Argemiro\Documents\UFERSA\IX Período\PDI\BeeSmart\AutMachine\bin\Debug\AutMachine.pdb
+C:\Users\Argemiro\Documents\UFERSA\IX Período\PDI\BeeSmart\AutMachine\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Argemiro\Documents\UFERSA\IX Período\PDI\BeeSmart\AutMachine\obj\Debug\AutMachine.dll
+C:\Users\Argemiro\Documents\UFERSA\IX Período\PDI\BeeSmart\AutMachine\obj\Debug\AutMachine.pdb

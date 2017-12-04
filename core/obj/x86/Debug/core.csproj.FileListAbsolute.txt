@@ -1,0 +1,67 @@
+C:\Users\Argemiro\Documents\UFERSA\IX Período\PDI\BeeSmart\core\bin\Debug\core.exe
+C:\Users\Argemiro\Documents\UFERSA\IX Período\PDI\BeeSmart\core\bin\Debug\core.pdb
+C:\Users\Argemiro\Documents\UFERSA\IX Período\PDI\BeeSmart\core\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Argemiro\Documents\UFERSA\IX Período\PDI\BeeSmart\core\obj\x86\Debug\MainWindow.baml
+C:\Users\Argemiro\Documents\UFERSA\IX Período\PDI\BeeSmart\core\obj\x86\Debug\MainWindow.g.cs
+C:\Users\Argemiro\Documents\UFERSA\IX Período\PDI\BeeSmart\core\obj\x86\Debug\App.g.cs
+C:\Users\Argemiro\Documents\UFERSA\IX Período\PDI\BeeSmart\core\obj\x86\Debug\core_MarkupCompile.cache
+C:\Users\Argemiro\Documents\UFERSA\IX Período\PDI\BeeSmart\core\obj\x86\Debug\core.g.resources
+C:\Users\Argemiro\Documents\UFERSA\IX Período\PDI\BeeSmart\core\obj\x86\Debug\core.Properties.Resources.resources
+C:\Users\Argemiro\Documents\UFERSA\IX Período\PDI\BeeSmart\core\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Argemiro\Documents\UFERSA\IX Período\PDI\BeeSmart\core\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Argemiro\Documents\UFERSA\IX Período\PDI\BeeSmart\core\obj\x86\Debug\core.exe
+C:\Users\Argemiro\Documents\UFERSA\IX Período\PDI\BeeSmart\core\obj\x86\Debug\core.pdb
+C:\Users\Argemiro\Documents\UFERSA\Pesquisa\PIVIC\BeeSmart\core\bin\Debug\core.exe
+C:\Users\Argemiro\Documents\UFERSA\Pesquisa\PIVIC\BeeSmart\core\bin\Debug\core.pdb
+C:\Users\Argemiro\Documents\UFERSA\Pesquisa\PIVIC\BeeSmart\core\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Argemiro\Documents\UFERSA\Pesquisa\PIVIC\BeeSmart\core\obj\x86\Debug\MainWindow.baml
+C:\Users\Argemiro\Documents\UFERSA\Pesquisa\PIVIC\BeeSmart\core\obj\x86\Debug\MainWindow.g.cs
+C:\Users\Argemiro\Documents\UFERSA\Pesquisa\PIVIC\BeeSmart\core\obj\x86\Debug\App.g.cs
+C:\Users\Argemiro\Documents\UFERSA\Pesquisa\PIVIC\BeeSmart\core\obj\x86\Debug\core_MarkupCompile.cache
+C:\Users\Argemiro\Documents\UFERSA\Pesquisa\PIVIC\BeeSmart\core\obj\x86\Debug\core.g.resources
+C:\Users\Argemiro\Documents\UFERSA\Pesquisa\PIVIC\BeeSmart\core\obj\x86\Debug\core.Properties.Resources.resources
+C:\Users\Argemiro\Documents\UFERSA\Pesquisa\PIVIC\BeeSmart\core\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Argemiro\Documents\UFERSA\Pesquisa\PIVIC\BeeSmart\core\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Argemiro\Documents\UFERSA\Pesquisa\PIVIC\BeeSmart\core\obj\x86\Debug\core.exe
+C:\Users\Argemiro\Documents\UFERSA\Pesquisa\PIVIC\BeeSmart\core\obj\x86\Debug\core.pdb
+C:\Users\Argemiro\Documents\UFERSA\Pesquisa\PIVIC\BeeSmart\core\obj\x86\Debug\Simple Styles.baml
+C:\Users\Argemiro\Documents\UFERSA\Pesquisa\PIVIC\BeeSmart\core\obj\x86\Debug\App.baml
+C:\Users\Argemiro\Documents\UFERSA\Pesquisa\PIVIC\BeeSmart\core\obj\x86\Debug\core.Resources.Resource1.resources
+C:\Users\Argemiro\Documents\UFERSA\Pesquisa\PIVIC\BeeSmart\core\obj\x86\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Argemiro\Documents\UFERSA\Pesquisa\PIVIC\BeeSmart\core\obj\x86\Debug\core_MarkupCompile.lref
+C:\Users\Argemiro\Documents\UFERSA\Pesquisa\PIVIC\BeeSmart\core\bin\Debug\VIBlend.WPF.Editors.dll
+C:\Users\Argemiro\Documents\UFERSA\Pesquisa\PIVIC\BeeSmart\core\bin\Debug\VIBlend.WPF.Utilities.dll
+C:\Users\Argemiro\Documents\UFERSA\Pesquisa\PIVIC\BeeSmart\core\bin\Debug\VIBlend.WPF.Editors.xml
+C:\Users\Argemiro\Documents\UFERSA\Pesquisa\PIVIC\BeeSmart\core\bin\Debug\VIBlend.WPF.Utilities.xml
+C:\Users\Argemiro\Documents\UFERSA\Pesquisa\PIVIC\BeeSmart\core\obj\x86\Debug\AutomacaoBase.baml
+C:\Users\Argemiro\Documents\UFERSA\Pesquisa\PIVIC\BeeSmart\core\obj\x86\Debug\AutomacaoBase.g.cs
+C:\Users\Argemiro\Documents\UFERSA\Pesquisa\PIVIC\BeeSmart\core\obj\x86\Debug\grdModuloControl.g.cs
+C:\Users\Argemiro\Documents\UFERSA\Pesquisa\PIVIC\BeeSmart\core\obj\x86\Debug\grdModuloControl.baml
+C:\Users\Argemiro\Documents\UFERSA\Pesquisa\PIVIC\BeeSmart\core\bin\Debug\WPFDeveloperTools.Controls.dll
+C:\Users\Argemiro\Documents\UFERSA\Pesquisa\PIVIC\BeeSmart\core\bin\Debug\WPFDeveloperTools.Controls.pdb
+C:\Users\Argemiro\Documents\UFERSA\Pesquisa\PIVIC\BeeSmart\core\obj\x86\Debug\GenerateResource.read.0.tlog
+C:\Users\Argemiro\Documents\UFERSA\Pesquisa\PIVIC\BeeSmart\core\obj\x86\Debug\GenerateResource.write.0.tlog
+C:\Users\Argemiro\Documents\UFERSA\Pesquisa\PIVIC\BeeSmart\core\bin\Debug\Microsoft.Expression.Effects.dll
+C:\Users\Argemiro\Documents\UFERSA\Pesquisa\PIVIC\BeeSmart\core\bin\Debug\Microsoft.Expression.Interactions.dll
+C:\Users\Argemiro\Documents\UFERSA\Pesquisa\PIVIC\BeeSmart\core\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\Argemiro\Documents\UFERSA\Pesquisa\PIVIC\BeeSmart\core\bin\Debug\Microsoft.Expression.Effects.xml
+C:\Users\Argemiro\Documents\UFERSA\Pesquisa\PIVIC\BeeSmart\core\bin\Debug\Microsoft.Expression.Interactions.xml
+C:\Users\Argemiro\Documents\UFERSA\Pesquisa\PIVIC\BeeSmart\core\bin\Debug\System.Windows.Interactivity.xml
+C:\Users\Argemiro\Documents\UFERSA\Pesquisa\PIVIC\BeeSmart\core\bin\Debug\de\Microsoft.Expression.Interactions.resources.dll
+C:\Users\Argemiro\Documents\UFERSA\Pesquisa\PIVIC\BeeSmart\core\bin\Debug\en\Microsoft.Expression.Interactions.resources.dll
+C:\Users\Argemiro\Documents\UFERSA\Pesquisa\PIVIC\BeeSmart\core\bin\Debug\es\Microsoft.Expression.Interactions.resources.dll
+C:\Users\Argemiro\Documents\UFERSA\Pesquisa\PIVIC\BeeSmart\core\bin\Debug\fr\Microsoft.Expression.Interactions.resources.dll
+C:\Users\Argemiro\Documents\UFERSA\Pesquisa\PIVIC\BeeSmart\core\bin\Debug\it\Microsoft.Expression.Interactions.resources.dll
+C:\Users\Argemiro\Documents\UFERSA\Pesquisa\PIVIC\BeeSmart\core\bin\Debug\ja\Microsoft.Expression.Interactions.resources.dll
+C:\Users\Argemiro\Documents\UFERSA\Pesquisa\PIVIC\BeeSmart\core\bin\Debug\ko\Microsoft.Expression.Interactions.resources.dll
+C:\Users\Argemiro\Documents\UFERSA\Pesquisa\PIVIC\BeeSmart\core\bin\Debug\zh-Hans\Microsoft.Expression.Interactions.resources.dll
+C:\Users\Argemiro\Documents\UFERSA\Pesquisa\PIVIC\BeeSmart\core\bin\Debug\zh-Hant\Microsoft.Expression.Interactions.resources.dll
+C:\Users\Argemiro\Documents\UFERSA\Pesquisa\PIVIC\BeeSmart\core\bin\Debug\de\System.Windows.Interactivity.resources.dll
+C:\Users\Argemiro\Documents\UFERSA\Pesquisa\PIVIC\BeeSmart\core\bin\Debug\en\System.Windows.Interactivity.resources.dll
+C:\Users\Argemiro\Documents\UFERSA\Pesquisa\PIVIC\BeeSmart\core\bin\Debug\es\System.Windows.Interactivity.resources.dll
+C:\Users\Argemiro\Documents\UFERSA\Pesquisa\PIVIC\BeeSmart\core\bin\Debug\fr\System.Windows.Interactivity.resources.dll
+C:\Users\Argemiro\Documents\UFERSA\Pesquisa\PIVIC\BeeSmart\core\bin\Debug\it\System.Windows.Interactivity.resources.dll
+C:\Users\Argemiro\Documents\UFERSA\Pesquisa\PIVIC\BeeSmart\core\bin\Debug\ja\System.Windows.Interactivity.resources.dll
+C:\Users\Argemiro\Documents\UFERSA\Pesquisa\PIVIC\BeeSmart\core\bin\Debug\ko\System.Windows.Interactivity.resources.dll
+C:\Users\Argemiro\Documents\UFERSA\Pesquisa\PIVIC\BeeSmart\core\bin\Debug\zh-Hans\System.Windows.Interactivity.resources.dll
+C:\Users\Argemiro\Documents\UFERSA\Pesquisa\PIVIC\BeeSmart\core\bin\Debug\zh-Hant\System.Windows.Interactivity.resources.dll

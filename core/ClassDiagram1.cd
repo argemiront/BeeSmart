@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="core.MainWindow" Collapsed="true">
+    <Position X="7.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAABgAAAAAAAAAAgAECAQAIAAAEgAAAAAEAA=</HashCode>
+      <FileName>MainWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="core.grdModuloControl" Collapsed="true">
+    <Position X="4.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>grdModuloControl.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="core.GrdModulo" Collapsed="true">
+    <Position X="4.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABIBAAAAAAAAAAAAAAACABAEAAAAACAAAAAAA=</HashCode>
+      <FileName>GrdModulo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="core.AutTab" Collapsed="true">
+    <Position X="1.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgCIABAASBABAAAAAAEBjQAoBBAAgiBgAAFAAg=</HashCode>
+      <FileName>AutTab.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="core.AutomacaoBase" Collapsed="true">
+    <Position X="1.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AutomacaoBase.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="XComm.XComm" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="7.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACQQAAAgBCAAAAgAAAAAIIEIAAAKAEAIAAAEEAAAAAA=</HashCode>
+      <FileName>XComm\XComm.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="XComm.XBee.XBee" Collapsed="true">
+    <Position X="9" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAEQCRBAAACAAAAAAAAAAAgAgA=</HashCode>
+      <FileName>XComm\XBee\XBee.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
