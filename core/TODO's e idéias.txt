@@ -1,2 +1,0 @@
-﻿Implementar as funções de incremento e decremento nos analógicos nas ações
-Implementar funções de set e reset nas ações
